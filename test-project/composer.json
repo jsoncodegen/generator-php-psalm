@@ -1,0 +1,23 @@
+{
+  "name": "jsoncodegen/generator-php-test",
+  "type": "project",
+  "license": "UNLICENSED",
+  "platform": {
+    "php": "5.6"
+  },
+  "scripts": {
+    "psalm": "php vendor/bin/psalm --output-format=phpstorm --no-cache --monochrome --config=psalm.xml",
+    "_test": "php vendor/bin/phpunit test",
+    "test": [
+      "@psalm",
+      "@_test"
+    ]
+  },
+  "require-dev": {
+    "vimeo/psalm": "^5.1",
+    "phpunit/phpunit": "^9.5"
+  },
+	"require": {
+		"ext-json": "*"
+	}
+}
