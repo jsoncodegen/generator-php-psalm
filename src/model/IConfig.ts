@@ -1,3 +1,3 @@
 export interface IConfig {
-	packagePath: string
+	namespaceBase: string
 }

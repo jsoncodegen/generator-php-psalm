@@ -26,20 +26,20 @@ export async function generateEnumAssert(
 	const assertFunAlias = join(
 		'\\',
 		joinWith(`\\`)(
-			config.packagePath,
+			config.namespaceBase,
 			UTILITY_FOLDER_NAME,
 			join('AssertUtil::', assertFunName),
 		),
 	)
 	const namespace = joinWith(`\\`)(
-		config.packagePath,
+		config.namespaceBase,
 		ASSERT_FOLDER_NAME,
 		...directoryPath,
 	)
 	const enumAlias = join(
 		'\\',
 		joinWith(`\\`)(
-			config.packagePath,
+			config.namespaceBase,
 			TYPE_FOLDER_NAME,
 			...directoryPath,
 			name,

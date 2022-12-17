@@ -20,7 +20,7 @@ export async function generateEnum(
 ): Promise<IGeneratorResult[]> {
 	const { directoryPath, name, values, description } = info
 	const namespaceDecl = `namespace ${joinWith('\\')(
-		config.packagePath,
+		config.namespaceBase,
 		TYPE_FOLDER_NAME,
 		...directoryPath,
 	)};`

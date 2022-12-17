@@ -19,7 +19,7 @@ export function fieldTypeToString(config: IConfig, fieldType: TFieldType) {
 		case 'Map':
 			result = join(
 				'\\',
-				joinWith('\\')(config.packagePath, UTILITY_FOLDER_NAME, 'JsonMap'),
+				joinWith('\\')(config.namespaceBase, UTILITY_FOLDER_NAME, 'JsonMap'),
 				`<`,
 				fieldTypeToString(config, fieldType.fieldType),
 				`>`,

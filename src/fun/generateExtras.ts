@@ -12,13 +12,13 @@ export async function generateExtras(
 		{
 			filePath: [UTILITY_FOLDER_NAME, 'AssertUtil.php'],
 			content: templateOfAssertUtil({
-				namespace: joinWith('\\')(config.packagePath, UTILITY_FOLDER_NAME),
+				namespace: joinWith('\\')(config.namespaceBase, UTILITY_FOLDER_NAME),
 			}),
 		},
 		{
 			filePath: [UTILITY_FOLDER_NAME, 'JsonMap.php'],
 			content: templateOfJsonMap({
-				namespace: joinWith('\\')(config.packagePath, UTILITY_FOLDER_NAME),
+				namespace: joinWith('\\')(config.namespaceBase, UTILITY_FOLDER_NAME),
 			}),
 		},
 	]

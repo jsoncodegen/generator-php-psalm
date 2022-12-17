@@ -23,7 +23,7 @@ export async function generateInterfaceBuilder(
 	} = info
 	const interfaceBuilderName = interfaceName + 'Builder'
 	const namespaceDecl = `namespace ${joinWith('\\')(
-		config.packagePath,
+		config.namespaceBase,
 		BUILDER_FOLDER_NAME,
 		...directoryPath,
 	)};`

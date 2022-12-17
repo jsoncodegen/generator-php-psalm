@@ -1,3 +1,3 @@
 module.exports = {
-  packagePath: 'JCG\\Test\\generated'
+  namespaceBase: 'JCG\\Test\\generated'
 }

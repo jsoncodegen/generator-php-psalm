@@ -24,17 +24,17 @@ export async function generateInterfaceAssert(
 ): Promise<IGeneratorResult> {
 	const assertUtilClassPath = join(
 		'\\',
-		joinWith('\\')(config.packagePath, UTILITY_FOLDER_NAME, 'AssertUtil'),
+		joinWith('\\')(config.namespaceBase, UTILITY_FOLDER_NAME, 'AssertUtil'),
 	)
 	const namespace = joinWith('\\')(
-		config.packagePath,
+		config.namespaceBase,
 		ASSERT_FOLDER_NAME,
 		...directoryPath,
 	)
 	const interfaceAlias = join(
 		'\\',
 		joinWith('\\')(
-			config.packagePath,
+			config.namespaceBase,
 			TYPE_FOLDER_NAME,
 			...directoryPath,
 			name,
@@ -80,7 +80,7 @@ export async function generateInterfaceAssert(
 				assertFunName = join(
 					'\\',
 					joinWith('\\')(
-						config.packagePath,
+						config.namespaceBase,
 						ASSERT_FOLDER_NAME,
 						...fieldType.absoluteDirectoryPath,
 						'Assert' + fieldType.name,
@@ -108,7 +108,7 @@ export async function generateInterfaceAssert(
 				fieldTypeName = join(
 					'\\',
 					joinArrayWith('\\')([
-						config.packagePath,
+						config.namespaceBase,
 						TYPE_FOLDER_NAME,
 						...fieldType.absoluteDirectoryPath,
 						fieldType.name,

@@ -22,7 +22,7 @@ export function namedFieldTypeLocalName(
 	return join(
 		'\\',
 		joinWith('\\')(
-			config.packagePath,
+			config.namespaceBase,
 			TYPE_FOLDER_NAME,
 			...t.absoluteDirectoryPath,
 			t.name,

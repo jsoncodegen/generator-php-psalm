@@ -24,7 +24,7 @@ export async function generateInterface(
 		name: interfaceName,
 	} = info
 	const namespaceDecl = `namespace ${joinWith('\\')(
-		config.packagePath,
+		config.namespaceBase,
 		TYPE_FOLDER_NAME,
 		...directoryPath,
 	)};`
@@ -53,7 +53,7 @@ export async function generateInterface(
 	const builderGenericsAllOk = join(
 		'\\',
 		joinWith('\\')(
-			config.packagePath,
+			config.namespaceBase,
 			BUILDER_FOLDER_NAME,
 			...directoryPath,
 			info.name,
