@@ -6,27 +6,18 @@ namespace JCG\Test\generated\Builder\parent\tests;
  * This tests interface fields.
  * @template __Has_object___
  * @template __Has_objectWithDescription__
- * @template __Has_objectOrNull__
  * @template __Has_arrayOfObjects__
  * @template __Has_arrayOfArraysOfObjects__
  * @template __Has_arrayOfObjectsAndNulls__
- * @template __Has_arrayOfObjectsOrNull__
- * @template __Has_arrayOfObjectsAndNullsOrNull__
  * @template __Has_mapOfObjects__
  * @template __Has_mapOfMapsOfObjects__
  * @template __Has_mapOfNullsAndObjects__
- * @template __Has_mapOfObjectsOrNull__
- * @template __Has_mapOfNullsAndObjectsOrNull__
  * @template __Has_arrayOfMapsOfObjects__
- * @template __Has_arrayOfMapsOfObjectsOrNull__
  * @template __Has_arrayOfNullsAndMapsOfObjects__
  * @template __Has_arrayOfMapsOfNullsAndObjects__
- * @template __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__
  * @template __Has_mapOfArraysOfObjects__
- * @template __Has_mapOfArraysOfObjectsOrNull__
  * @template __Has_mapOfNullsAndArraysOfObjects__
  * @template __Has_mapOfArraysOfNullsAndObjects__
- * @template __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__
  */
 final class JsonInterfaceRootTestBuilder
 {
@@ -157,13 +148,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Type\JsonInterface $value
-	 * @return JsonInterfaceRootTestBuilder<"OK", __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<"OK", __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setObject_($value)
 	{
 		$this->object_ = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<"OK", __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<"OK", __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -181,13 +172,13 @@ final class JsonInterfaceRootTestBuilder
 	/**
 	 * This is an object.
 	 * @param \JCG\Test\generated\Type\JsonInterface $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, "OK", __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, "OK", __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setObjectWithDescription($value)
 	{
 		$this->objectWithDescription = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, "OK", __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, "OK", __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -203,13 +194,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Type\JsonInterface|null $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, "OK", __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setObjectOrNull($value)
 	{
 		$this->objectOrNull = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, "OK", __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -225,13 +216,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Type\JsonInterface> $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, "OK", __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, "OK", __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setArrayOfObjects($value)
 	{
 		$this->arrayOfObjects = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, "OK", __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, "OK", __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -247,13 +238,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param list<list<\JCG\Test\generated\Type\JsonInterface>> $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, "OK", __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, "OK", __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setArrayOfArraysOfObjects($value)
 	{
 		$this->arrayOfArraysOfObjects = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, "OK", __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, "OK", __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -269,13 +260,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Type\JsonInterface|null> $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, "OK", __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, "OK", __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setArrayOfObjectsAndNulls($value)
 	{
 		$this->arrayOfObjectsAndNulls = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, "OK", __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, "OK", __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -291,13 +282,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Type\JsonInterface>|null $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, "OK", __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setArrayOfObjectsOrNull($value)
 	{
 		$this->arrayOfObjectsOrNull = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, "OK", __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -313,13 +304,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Type\JsonInterface|null>|null $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, "OK", __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setArrayOfObjectsAndNullsOrNull($value)
 	{
 		$this->arrayOfObjectsAndNullsOrNull = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, "OK", __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -335,13 +326,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonInterface> $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, "OK", __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, "OK", __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setMapOfObjects($value)
 	{
 		$this->mapOfObjects = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, "OK", __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, "OK", __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -357,13 +348,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonInterface>> $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, "OK", __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, "OK", __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setMapOfMapsOfObjects($value)
 	{
 		$this->mapOfMapsOfObjects = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, "OK", __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, "OK", __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -379,13 +370,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonInterface|null> $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, "OK", __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, "OK", __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setMapOfNullsAndObjects($value)
 	{
 		$this->mapOfNullsAndObjects = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, "OK", __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, "OK", __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -401,13 +392,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonInterface>|null $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, "OK", __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setMapOfObjectsOrNull($value)
 	{
 		$this->mapOfObjectsOrNull = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, "OK", __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -423,13 +414,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonInterface|null>|null $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, "OK", __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setMapOfNullsAndObjectsOrNull($value)
 	{
 		$this->mapOfNullsAndObjectsOrNull = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, "OK", __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -445,13 +436,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonInterface>> $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, "OK", __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, "OK", __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setArrayOfMapsOfObjects($value)
 	{
 		$this->arrayOfMapsOfObjects = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, "OK", __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, "OK", __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -467,13 +458,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonInterface>>|null $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, "OK", __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setArrayOfMapsOfObjectsOrNull($value)
 	{
 		$this->arrayOfMapsOfObjectsOrNull = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, "OK", __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -489,13 +480,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonInterface>|null> $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, "OK", __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, "OK", __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setArrayOfNullsAndMapsOfObjects($value)
 	{
 		$this->arrayOfNullsAndMapsOfObjects = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, "OK", __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, "OK", __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -511,13 +502,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonInterface|null>> $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, "OK", __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, "OK", __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setArrayOfMapsOfNullsAndObjects($value)
 	{
 		$this->arrayOfMapsOfNullsAndObjects = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, "OK", __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, "OK", __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -533,13 +524,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonInterface|null>|null>|null $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, "OK", __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setArrayOfNullsAndMapsOfNullsAndObjectsOrNull($value)
 	{
 		$this->arrayOfNullsAndMapsOfNullsAndObjectsOrNull = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, "OK", __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -555,13 +546,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\JsonInterface>> $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, "OK", __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, "OK", __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setMapOfArraysOfObjects($value)
 	{
 		$this->mapOfArraysOfObjects = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, "OK", __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, "OK", __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -577,13 +568,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\JsonInterface>>|null $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, "OK", __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setMapOfArraysOfObjectsOrNull($value)
 	{
 		$this->mapOfArraysOfObjectsOrNull = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, "OK", __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -599,13 +590,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\JsonInterface>|null> $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, "OK", __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, "OK", __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setMapOfNullsAndArraysOfObjects($value)
 	{
 		$this->mapOfNullsAndArraysOfObjects = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, "OK", __Has_mapOfArraysOfNullsAndObjects__, __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, "OK", __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -621,13 +612,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\JsonInterface|null>> $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, "OK", __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__>
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, "OK">
 	 */
 	public function setMapOfArraysOfNullsAndObjects($value)
 	{
 		$this->mapOfArraysOfNullsAndObjects = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, "OK", __Has_mapOfNullsAndArraysOfNullsAndObjectsOrNull__> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, "OK"> $that
 		 */
 		$that = $this;
 		return $that;
@@ -643,13 +634,13 @@ final class JsonInterfaceRootTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\JsonInterface|null>|null>|null $value
-	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, "OK">
+	 * @return JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__>
 	 */
 	public function setMapOfNullsAndArraysOfNullsAndObjectsOrNull($value)
 	{
 		$this->mapOfNullsAndArraysOfNullsAndObjectsOrNull = $value;
 		/**
-		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_objectOrNull__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_arrayOfObjectsOrNull__, __Has_arrayOfObjectsAndNullsOrNull__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_mapOfObjectsOrNull__, __Has_mapOfNullsAndObjectsOrNull__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfMapsOfObjectsOrNull__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_arrayOfNullsAndMapsOfNullsAndObjectsOrNull__, __Has_mapOfArraysOfObjects__, __Has_mapOfArraysOfObjectsOrNull__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__, "OK"> $that
+		 * @var JsonInterfaceRootTestBuilder<__Has_object___, __Has_objectWithDescription__, __Has_arrayOfObjects__, __Has_arrayOfArraysOfObjects__, __Has_arrayOfObjectsAndNulls__, __Has_mapOfObjects__, __Has_mapOfMapsOfObjects__, __Has_mapOfNullsAndObjects__, __Has_arrayOfMapsOfObjects__, __Has_arrayOfNullsAndMapsOfObjects__, __Has_arrayOfMapsOfNullsAndObjects__, __Has_mapOfArraysOfObjects__, __Has_mapOfNullsAndArraysOfObjects__, __Has_mapOfArraysOfNullsAndObjects__> $that
 		 */
 		$that = $this;
 		return $that;

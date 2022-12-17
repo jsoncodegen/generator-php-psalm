@@ -148,7 +148,7 @@ final class JsonInterfaceParentTest
 	public $mapOfNullsAndArraysOfNullsAndObjectsOrNull;
 
 	/**
-	 * @param \JCG\Test\generated\Builder\parent\tests\JsonInterfaceParentTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"> $builder
+	 * @param \JCG\Test\generated\Builder\parent\tests\JsonInterfaceParentTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"> $builder
 	 * @throws \Exception
 	 */
 	public function __construct($builder)

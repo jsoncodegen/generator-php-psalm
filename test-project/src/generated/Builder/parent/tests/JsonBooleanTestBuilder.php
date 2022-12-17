@@ -6,27 +6,18 @@ namespace JCG\Test\generated\Builder\parent\tests;
  * This tests boolean values.
  * @template __Has_flag__
  * @template __Has_flagWithDescription__
- * @template __Has_flagOrNull__
  * @template __Has_arrayOfFlags__
  * @template __Has_arrayOfArraysOfFlags__
  * @template __Has_arrayOfFlagsAndNulls__
- * @template __Has_arrayOfFlagsOrNull__
- * @template __Has_arrayOfFlagsAndNullsOrNull__
  * @template __Has_mapOfFlags__
  * @template __Has_mapOfMapsOfFlags__
  * @template __Has_mapOfNullsAndFlags__
- * @template __Has_mapOfFlagsOrNull__
- * @template __Has_mapOfNullsAndFlagsOrNull__
  * @template __Has_arrayOfMapsOfFlags__
- * @template __Has_arrayOfMapsOfFlagsOrNull__
  * @template __Has_arrayOfNullsAndMapsOfFlags__
  * @template __Has_arrayOfMapsOfNullsAndFlags__
- * @template __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__
  * @template __Has_mapOfArraysOfFlags__
- * @template __Has_mapOfArraysOfFlagsOrNull__
  * @template __Has_mapOfNullsAndArraysOfFlags__
  * @template __Has_mapOfArraysOfNullsAndFlags__
- * @template __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__
  */
 final class JsonBooleanTestBuilder
 {
@@ -157,13 +148,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param bool $value
-	 * @return JsonBooleanTestBuilder<"OK", __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<"OK", __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setFlag($value)
 	{
 		$this->flag = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<"OK", __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<"OK", __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -181,13 +172,13 @@ final class JsonBooleanTestBuilder
 	/**
 	 * This is a flag.
 	 * @param bool $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, "OK", __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, "OK", __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setFlagWithDescription($value)
 	{
 		$this->flagWithDescription = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, "OK", __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, "OK", __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -203,13 +194,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param bool|null $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, "OK", __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setFlagOrNull($value)
 	{
 		$this->flagOrNull = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, "OK", __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -225,13 +216,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param list<bool> $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, "OK", __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, "OK", __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setArrayOfFlags($value)
 	{
 		$this->arrayOfFlags = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, "OK", __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, "OK", __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -247,13 +238,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param list<list<bool>> $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, "OK", __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, "OK", __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setArrayOfArraysOfFlags($value)
 	{
 		$this->arrayOfArraysOfFlags = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, "OK", __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, "OK", __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -269,13 +260,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param list<bool|null> $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, "OK", __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, "OK", __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setArrayOfFlagsAndNulls($value)
 	{
 		$this->arrayOfFlagsAndNulls = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, "OK", __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, "OK", __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -291,13 +282,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param list<bool>|null $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, "OK", __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setArrayOfFlagsOrNull($value)
 	{
 		$this->arrayOfFlagsOrNull = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, "OK", __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -313,13 +304,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param list<bool|null>|null $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, "OK", __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setArrayOfFlagsAndNullsOrNull($value)
 	{
 		$this->arrayOfFlagsAndNullsOrNull = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, "OK", __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -335,13 +326,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<bool> $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, "OK", __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, "OK", __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setMapOfFlags($value)
 	{
 		$this->mapOfFlags = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, "OK", __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, "OK", __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -357,13 +348,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Util\JsonMap<bool>> $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, "OK", __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, "OK", __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setMapOfMapsOfFlags($value)
 	{
 		$this->mapOfMapsOfFlags = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, "OK", __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, "OK", __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -379,13 +370,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<bool|null> $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, "OK", __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, "OK", __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setMapOfNullsAndFlags($value)
 	{
 		$this->mapOfNullsAndFlags = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, "OK", __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, "OK", __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -401,13 +392,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<bool>|null $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, "OK", __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setMapOfFlagsOrNull($value)
 	{
 		$this->mapOfFlagsOrNull = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, "OK", __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -423,13 +414,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<bool|null>|null $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, "OK", __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setMapOfNullsAndFlagsOrNull($value)
 	{
 		$this->mapOfNullsAndFlagsOrNull = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, "OK", __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -445,13 +436,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<bool>> $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, "OK", __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, "OK", __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setArrayOfMapsOfFlags($value)
 	{
 		$this->arrayOfMapsOfFlags = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, "OK", __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, "OK", __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -467,13 +458,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<bool>>|null $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, "OK", __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setArrayOfMapsOfFlagsOrNull($value)
 	{
 		$this->arrayOfMapsOfFlagsOrNull = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, "OK", __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -489,13 +480,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<bool>|null> $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, "OK", __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, "OK", __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setArrayOfNullsAndMapsOfFlags($value)
 	{
 		$this->arrayOfNullsAndMapsOfFlags = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, "OK", __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, "OK", __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -511,13 +502,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<bool|null>> $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, "OK", __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, "OK", __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setArrayOfMapsOfNullsAndFlags($value)
 	{
 		$this->arrayOfMapsOfNullsAndFlags = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, "OK", __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, "OK", __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -533,13 +524,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<bool|null>|null>|null $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, "OK", __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setArrayOfNullsAndMapsOfNullsAndFlagsOrNull($value)
 	{
 		$this->arrayOfNullsAndMapsOfNullsAndFlagsOrNull = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, "OK", __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -555,13 +546,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<bool>> $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, "OK", __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, "OK", __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setMapOfArraysOfFlags($value)
 	{
 		$this->mapOfArraysOfFlags = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, "OK", __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, "OK", __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -577,13 +568,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<bool>>|null $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, "OK", __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setMapOfArraysOfFlagsOrNull($value)
 	{
 		$this->mapOfArraysOfFlagsOrNull = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, "OK", __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -599,13 +590,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<bool>|null> $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, "OK", __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, "OK", __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setMapOfNullsAndArraysOfFlags($value)
 	{
 		$this->mapOfNullsAndArraysOfFlags = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, "OK", __Has_mapOfArraysOfNullsAndFlags__, __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, "OK", __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -621,13 +612,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<bool|null>> $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, "OK", __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__>
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, "OK">
 	 */
 	public function setMapOfArraysOfNullsAndFlags($value)
 	{
 		$this->mapOfArraysOfNullsAndFlags = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, "OK", __Has_mapOfNullsAndArraysOfNullsAndFlagsOrNull__> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, "OK"> $that
 		 */
 		$that = $this;
 		return $that;
@@ -643,13 +634,13 @@ final class JsonBooleanTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<bool|null>|null>|null $value
-	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, "OK">
+	 * @return JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__>
 	 */
 	public function setMapOfNullsAndArraysOfNullsAndFlagsOrNull($value)
 	{
 		$this->mapOfNullsAndArraysOfNullsAndFlagsOrNull = $value;
 		/**
-		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_flagOrNull__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_arrayOfFlagsOrNull__, __Has_arrayOfFlagsAndNullsOrNull__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_mapOfFlagsOrNull__, __Has_mapOfNullsAndFlagsOrNull__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfMapsOfFlagsOrNull__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_arrayOfNullsAndMapsOfNullsAndFlagsOrNull__, __Has_mapOfArraysOfFlags__, __Has_mapOfArraysOfFlagsOrNull__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__, "OK"> $that
+		 * @var JsonBooleanTestBuilder<__Has_flag__, __Has_flagWithDescription__, __Has_arrayOfFlags__, __Has_arrayOfArraysOfFlags__, __Has_arrayOfFlagsAndNulls__, __Has_mapOfFlags__, __Has_mapOfMapsOfFlags__, __Has_mapOfNullsAndFlags__, __Has_arrayOfMapsOfFlags__, __Has_arrayOfNullsAndMapsOfFlags__, __Has_arrayOfMapsOfNullsAndFlags__, __Has_mapOfArraysOfFlags__, __Has_mapOfNullsAndArraysOfFlags__, __Has_mapOfArraysOfNullsAndFlags__> $that
 		 */
 		$that = $this;
 		return $that;

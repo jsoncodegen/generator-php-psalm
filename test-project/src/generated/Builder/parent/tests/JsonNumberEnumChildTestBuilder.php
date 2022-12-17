@@ -6,27 +6,18 @@ namespace JCG\Test\generated\Builder\parent\tests;
  * This tests number enum fields.
  * @template __Has_enum___
  * @template __Has_enumWithDescription__
- * @template __Has_enumOrNull__
  * @template __Has_arrayOfEnums__
  * @template __Has_arrayOfArraysOfEnums__
  * @template __Has_arrayOfEnumsAndNulls__
- * @template __Has_arrayOfEnumsOrNull__
- * @template __Has_arrayOfEnumsAndNullsOrNull__
  * @template __Has_mapOfEnums__
  * @template __Has_mapOfMapsOfEnums__
  * @template __Has_mapOfNullsAndEnums__
- * @template __Has_mapOfEnumsOrNull__
- * @template __Has_mapOfNullsAndEnumsOrNull__
  * @template __Has_arrayOfMapsOfEnums__
- * @template __Has_arrayOfMapsOfEnumsOrNull__
  * @template __Has_arrayOfNullsAndMapsOfEnums__
  * @template __Has_arrayOfMapsOfNullsAndEnums__
- * @template __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__
  * @template __Has_mapOfArraysOfEnums__
- * @template __Has_mapOfArraysOfEnumsOrNull__
  * @template __Has_mapOfNullsAndArraysOfEnums__
  * @template __Has_mapOfArraysOfNullsAndEnums__
- * @template __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__
  */
 final class JsonNumberEnumChildTestBuilder
 {
@@ -157,13 +148,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum $value
-	 * @return JsonNumberEnumChildTestBuilder<"OK", __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<"OK", __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setEnum_($value)
 	{
 		$this->enum_ = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<"OK", __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<"OK", __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -181,13 +172,13 @@ final class JsonNumberEnumChildTestBuilder
 	/**
 	 * This is an enum.
 	 * @param \JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, "OK", __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, "OK", __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setEnumWithDescription($value)
 	{
 		$this->enumWithDescription = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, "OK", __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, "OK", __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -203,13 +194,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum|null $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, "OK", __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setEnumOrNull($value)
 	{
 		$this->enumOrNull = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, "OK", __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -225,13 +216,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum> $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, "OK", __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, "OK", __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfEnums($value)
 	{
 		$this->arrayOfEnums = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, "OK", __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, "OK", __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -247,13 +238,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param list<list<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum>> $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, "OK", __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, "OK", __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfArraysOfEnums($value)
 	{
 		$this->arrayOfArraysOfEnums = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, "OK", __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, "OK", __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -269,13 +260,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum|null> $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, "OK", __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, "OK", __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfEnumsAndNulls($value)
 	{
 		$this->arrayOfEnumsAndNulls = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, "OK", __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, "OK", __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -291,13 +282,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum>|null $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, "OK", __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfEnumsOrNull($value)
 	{
 		$this->arrayOfEnumsOrNull = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, "OK", __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -313,13 +304,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum|null>|null $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, "OK", __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfEnumsAndNullsOrNull($value)
 	{
 		$this->arrayOfEnumsAndNullsOrNull = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, "OK", __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -335,13 +326,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum> $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, "OK", __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, "OK", __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfEnums($value)
 	{
 		$this->mapOfEnums = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, "OK", __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, "OK", __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -357,13 +348,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum>> $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, "OK", __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, "OK", __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfMapsOfEnums($value)
 	{
 		$this->mapOfMapsOfEnums = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, "OK", __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, "OK", __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -379,13 +370,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum|null> $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, "OK", __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, "OK", __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfNullsAndEnums($value)
 	{
 		$this->mapOfNullsAndEnums = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, "OK", __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, "OK", __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -401,13 +392,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum>|null $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, "OK", __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfEnumsOrNull($value)
 	{
 		$this->mapOfEnumsOrNull = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, "OK", __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -423,13 +414,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum|null>|null $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, "OK", __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfNullsAndEnumsOrNull($value)
 	{
 		$this->mapOfNullsAndEnumsOrNull = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, "OK", __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -445,13 +436,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum>> $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, "OK", __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, "OK", __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfMapsOfEnums($value)
 	{
 		$this->arrayOfMapsOfEnums = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, "OK", __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, "OK", __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -467,13 +458,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum>>|null $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, "OK", __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfMapsOfEnumsOrNull($value)
 	{
 		$this->arrayOfMapsOfEnumsOrNull = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, "OK", __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -489,13 +480,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum>|null> $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, "OK", __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, "OK", __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfNullsAndMapsOfEnums($value)
 	{
 		$this->arrayOfNullsAndMapsOfEnums = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, "OK", __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, "OK", __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -511,13 +502,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum|null>> $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, "OK", __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, "OK", __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfMapsOfNullsAndEnums($value)
 	{
 		$this->arrayOfMapsOfNullsAndEnums = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, "OK", __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, "OK", __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -533,13 +524,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum|null>|null>|null $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, "OK", __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfNullsAndMapsOfNullsAndEnumsOrNull($value)
 	{
 		$this->arrayOfNullsAndMapsOfNullsAndEnumsOrNull = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, "OK", __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -555,13 +546,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum>> $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, "OK", __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, "OK", __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfArraysOfEnums($value)
 	{
 		$this->mapOfArraysOfEnums = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, "OK", __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, "OK", __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -577,13 +568,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum>>|null $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, "OK", __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfArraysOfEnumsOrNull($value)
 	{
 		$this->mapOfArraysOfEnumsOrNull = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, "OK", __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -599,13 +590,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum>|null> $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, "OK", __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, "OK", __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfNullsAndArraysOfEnums($value)
 	{
 		$this->mapOfNullsAndArraysOfEnums = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, "OK", __Has_mapOfArraysOfNullsAndEnums__, __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, "OK", __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -621,13 +612,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum|null>> $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, "OK", __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__>
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, "OK">
 	 */
 	public function setMapOfArraysOfNullsAndEnums($value)
 	{
 		$this->mapOfArraysOfNullsAndEnums = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, "OK", __Has_mapOfNullsAndArraysOfNullsAndEnumsOrNull__> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, "OK"> $that
 		 */
 		$that = $this;
 		return $that;
@@ -643,13 +634,13 @@ final class JsonNumberEnumChildTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum|null>|null>|null $value
-	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, "OK">
+	 * @return JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfNullsAndArraysOfNullsAndEnumsOrNull($value)
 	{
 		$this->mapOfNullsAndArraysOfNullsAndEnumsOrNull = $value;
 		/**
-		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_enumOrNull__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_arrayOfEnumsOrNull__, __Has_arrayOfEnumsAndNullsOrNull__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_mapOfEnumsOrNull__, __Has_mapOfNullsAndEnumsOrNull__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfMapsOfEnumsOrNull__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_arrayOfNullsAndMapsOfNullsAndEnumsOrNull__, __Has_mapOfArraysOfEnums__, __Has_mapOfArraysOfEnumsOrNull__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__, "OK"> $that
+		 * @var JsonNumberEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__> $that
 		 */
 		$that = $this;
 		return $that;

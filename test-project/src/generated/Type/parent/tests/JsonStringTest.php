@@ -148,7 +148,7 @@ final class JsonStringTest
 	public $mapOfNullsAndArraysOfNullsAndNamesOrNull;
 
 	/**
-	 * @param \JCG\Test\generated\Builder\parent\tests\JsonStringTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"> $builder
+	 * @param \JCG\Test\generated\Builder\parent\tests\JsonStringTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"> $builder
 	 * @throws \Exception
 	 */
 	public function __construct($builder)

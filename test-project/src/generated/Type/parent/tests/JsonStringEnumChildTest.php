@@ -148,7 +148,7 @@ final class JsonStringEnumChildTest
 	public $mapOfNullsAndArraysOfNullsAndEnumsOrNull;
 
 	/**
-	 * @param \JCG\Test\generated\Builder\parent\tests\JsonStringEnumChildTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"> $builder
+	 * @param \JCG\Test\generated\Builder\parent\tests\JsonStringEnumChildTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"> $builder
 	 * @throws \Exception
 	 */
 	public function __construct($builder)

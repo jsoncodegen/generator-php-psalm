@@ -20,7 +20,7 @@ class Main
 			(new JsonStringEnumValueLocalTestBuilder())
 				->setEnumValue(JsonStringEnum::Name)
 				->setEnumValueWithDescription(JsonStringEnum::Name)
-				->setEnumValueOrNull(null)
+				//->setEnumValueOrNull(null)
 				->setArrayOfEnumValues([JsonStringEnum::Name])
 				->setArrayOfArraysOfEnumValues([[JsonStringEnum::Name]])
 				->setArrayOfEnumValuesAndNulls([JsonStringEnum::Name, null])

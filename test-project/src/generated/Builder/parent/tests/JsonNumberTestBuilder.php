@@ -6,27 +6,18 @@ namespace JCG\Test\generated\Builder\parent\tests;
  * This tests number values.
  * @template __Has_count__
  * @template __Has_countWithDescription__
- * @template __Has_countOrNull__
  * @template __Has_arrayOfCounts__
  * @template __Has_arrayOfArraysOfCounts__
  * @template __Has_arrayOfCountsAndNulls__
- * @template __Has_arrayOfCountsOrNull__
- * @template __Has_arrayOfCountsAndNullsOrNull__
  * @template __Has_mapOfCounts__
  * @template __Has_mapOfMapsOfCounts__
  * @template __Has_mapOfNullsAndCounts__
- * @template __Has_mapOfCountsOrNull__
- * @template __Has_mapOfNullsAndCountsOrNull__
  * @template __Has_arrayOfMapsOfCounts__
- * @template __Has_arrayOfMapsOfCountsOrNull__
  * @template __Has_arrayOfNullsAndMapsOfCounts__
  * @template __Has_arrayOfMapsOfNullsAndCounts__
- * @template __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__
  * @template __Has_mapOfArraysOfCounts__
- * @template __Has_mapOfArraysOfCountsOrNull__
  * @template __Has_mapOfNullsAndArraysOfCounts__
  * @template __Has_mapOfArraysOfNullsAndCounts__
- * @template __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__
  */
 final class JsonNumberTestBuilder
 {
@@ -157,13 +148,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param int|float $value
-	 * @return JsonNumberTestBuilder<"OK", __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<"OK", __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setCount($value)
 	{
 		$this->count = $value;
 		/**
-		 * @var JsonNumberTestBuilder<"OK", __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<"OK", __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -181,13 +172,13 @@ final class JsonNumberTestBuilder
 	/**
 	 * This is a count.
 	 * @param int|float $value
-	 * @return JsonNumberTestBuilder<__Has_count__, "OK", __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, "OK", __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setCountWithDescription($value)
 	{
 		$this->countWithDescription = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, "OK", __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, "OK", __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -203,13 +194,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param int|float|null $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, "OK", __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setCountOrNull($value)
 	{
 		$this->countOrNull = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, "OK", __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -225,13 +216,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param list<int|float> $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, "OK", __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, "OK", __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setArrayOfCounts($value)
 	{
 		$this->arrayOfCounts = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, "OK", __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, "OK", __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -247,13 +238,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param list<list<int|float>> $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, "OK", __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, "OK", __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setArrayOfArraysOfCounts($value)
 	{
 		$this->arrayOfArraysOfCounts = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, "OK", __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, "OK", __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -269,13 +260,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param list<int|float|null> $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, "OK", __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, "OK", __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setArrayOfCountsAndNulls($value)
 	{
 		$this->arrayOfCountsAndNulls = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, "OK", __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, "OK", __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -291,13 +282,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param list<int|float>|null $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, "OK", __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setArrayOfCountsOrNull($value)
 	{
 		$this->arrayOfCountsOrNull = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, "OK", __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -313,13 +304,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param list<int|float|null>|null $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, "OK", __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setArrayOfCountsAndNullsOrNull($value)
 	{
 		$this->arrayOfCountsAndNullsOrNull = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, "OK", __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -335,13 +326,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<int|float> $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, "OK", __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, "OK", __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setMapOfCounts($value)
 	{
 		$this->mapOfCounts = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, "OK", __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, "OK", __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -357,13 +348,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Util\JsonMap<int|float>> $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, "OK", __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, "OK", __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setMapOfMapsOfCounts($value)
 	{
 		$this->mapOfMapsOfCounts = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, "OK", __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, "OK", __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -379,13 +370,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<int|float|null> $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, "OK", __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, "OK", __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setMapOfNullsAndCounts($value)
 	{
 		$this->mapOfNullsAndCounts = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, "OK", __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, "OK", __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -401,13 +392,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<int|float>|null $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, "OK", __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setMapOfCountsOrNull($value)
 	{
 		$this->mapOfCountsOrNull = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, "OK", __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -423,13 +414,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<int|float|null>|null $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, "OK", __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setMapOfNullsAndCountsOrNull($value)
 	{
 		$this->mapOfNullsAndCountsOrNull = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, "OK", __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -445,13 +436,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<int|float>> $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, "OK", __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, "OK", __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setArrayOfMapsOfCounts($value)
 	{
 		$this->arrayOfMapsOfCounts = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, "OK", __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, "OK", __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -467,13 +458,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<int|float>>|null $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, "OK", __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setArrayOfMapsOfCountsOrNull($value)
 	{
 		$this->arrayOfMapsOfCountsOrNull = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, "OK", __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -489,13 +480,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<int|float>|null> $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, "OK", __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, "OK", __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setArrayOfNullsAndMapsOfCounts($value)
 	{
 		$this->arrayOfNullsAndMapsOfCounts = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, "OK", __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, "OK", __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -511,13 +502,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<int|float|null>> $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, "OK", __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, "OK", __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setArrayOfMapsOfNullsAndCounts($value)
 	{
 		$this->arrayOfMapsOfNullsAndCounts = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, "OK", __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, "OK", __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -533,13 +524,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<int|float|null>|null>|null $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, "OK", __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setArrayOfNullsAndMapsOfNullsAndCountsOrNull($value)
 	{
 		$this->arrayOfNullsAndMapsOfNullsAndCountsOrNull = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, "OK", __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -555,13 +546,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<int|float>> $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, "OK", __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, "OK", __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setMapOfArraysOfCounts($value)
 	{
 		$this->mapOfArraysOfCounts = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, "OK", __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, "OK", __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -577,13 +568,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<int|float>>|null $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, "OK", __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setMapOfArraysOfCountsOrNull($value)
 	{
 		$this->mapOfArraysOfCountsOrNull = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, "OK", __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -599,13 +590,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<int|float>|null> $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, "OK", __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, "OK", __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setMapOfNullsAndArraysOfCounts($value)
 	{
 		$this->mapOfNullsAndArraysOfCounts = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, "OK", __Has_mapOfArraysOfNullsAndCounts__, __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, "OK", __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -621,13 +612,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<int|float|null>> $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, "OK", __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__>
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, "OK">
 	 */
 	public function setMapOfArraysOfNullsAndCounts($value)
 	{
 		$this->mapOfArraysOfNullsAndCounts = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, "OK", __Has_mapOfNullsAndArraysOfNullsAndCountsOrNull__> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, "OK"> $that
 		 */
 		$that = $this;
 		return $that;
@@ -643,13 +634,13 @@ final class JsonNumberTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<int|float|null>|null>|null $value
-	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, "OK">
+	 * @return JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__>
 	 */
 	public function setMapOfNullsAndArraysOfNullsAndCountsOrNull($value)
 	{
 		$this->mapOfNullsAndArraysOfNullsAndCountsOrNull = $value;
 		/**
-		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_countOrNull__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_arrayOfCountsOrNull__, __Has_arrayOfCountsAndNullsOrNull__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_mapOfCountsOrNull__, __Has_mapOfNullsAndCountsOrNull__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfMapsOfCountsOrNull__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_arrayOfNullsAndMapsOfNullsAndCountsOrNull__, __Has_mapOfArraysOfCounts__, __Has_mapOfArraysOfCountsOrNull__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__, "OK"> $that
+		 * @var JsonNumberTestBuilder<__Has_count__, __Has_countWithDescription__, __Has_arrayOfCounts__, __Has_arrayOfArraysOfCounts__, __Has_arrayOfCountsAndNulls__, __Has_mapOfCounts__, __Has_mapOfMapsOfCounts__, __Has_mapOfNullsAndCounts__, __Has_arrayOfMapsOfCounts__, __Has_arrayOfNullsAndMapsOfCounts__, __Has_arrayOfMapsOfNullsAndCounts__, __Has_mapOfArraysOfCounts__, __Has_mapOfNullsAndArraysOfCounts__, __Has_mapOfArraysOfNullsAndCounts__> $that
 		 */
 		$that = $this;
 		return $that;

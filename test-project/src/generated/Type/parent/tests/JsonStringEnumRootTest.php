@@ -148,7 +148,7 @@ final class JsonStringEnumRootTest
 	public $mapOfNullsAndArraysOfNullsAndEnumsOrNull;
 
 	/**
-	 * @param \JCG\Test\generated\Builder\parent\tests\JsonStringEnumRootTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"> $builder
+	 * @param \JCG\Test\generated\Builder\parent\tests\JsonStringEnumRootTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"> $builder
 	 * @throws \Exception
 	 */
 	public function __construct($builder)

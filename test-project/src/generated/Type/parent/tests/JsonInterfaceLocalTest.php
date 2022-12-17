@@ -148,7 +148,7 @@ final class JsonInterfaceLocalTest
 	public $mapOfNullsAndArraysOfNullsAndObjectsOrNull;
 
 	/**
-	 * @param \JCG\Test\generated\Builder\parent\tests\JsonInterfaceLocalTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"> $builder
+	 * @param \JCG\Test\generated\Builder\parent\tests\JsonInterfaceLocalTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"> $builder
 	 * @throws \Exception
 	 */
 	public function __construct($builder)

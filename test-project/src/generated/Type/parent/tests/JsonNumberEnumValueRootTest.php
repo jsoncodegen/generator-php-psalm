@@ -148,7 +148,7 @@ final class JsonNumberEnumValueRootTest
 	public $mapOfNullsAndArraysOfNullsAndEnumValuesOrNull;
 
 	/**
-	 * @param \JCG\Test\generated\Builder\parent\tests\JsonNumberEnumValueRootTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"> $builder
+	 * @param \JCG\Test\generated\Builder\parent\tests\JsonNumberEnumValueRootTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"> $builder
 	 * @throws \Exception
 	 */
 	public function __construct($builder)

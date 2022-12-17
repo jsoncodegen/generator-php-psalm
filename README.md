@@ -74,4 +74,6 @@ MIT
 
 ## History
 
+1.0.1 Only require non-nullable fields.
+
 1.0.0 Initial version.

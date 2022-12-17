@@ -50,6 +50,9 @@ export async function generateInterface(
 		}),
 	)
 	const comment = makeComment(interfaceDescription)
+	const requiredFields = interfaceFields.filter(
+		(field) => !field.fieldType.isNullable,
+	)
 	const builderGenericsAllOk = join(
 		'\\',
 		joinWith('\\')(
@@ -59,8 +62,8 @@ export async function generateInterface(
 			info.name,
 		),
 		'Builder',
-		interfaceFields.length
-			? join('<', joinArrayWith(', ')(interfaceFields.map((_) => `"OK"`)), '>')
+		requiredFields.length
+			? join('<', joinArrayWith(', ')(requiredFields.map((_) => `"OK"`)), '>')
 			: '',
 	)
 	const variables = indent(

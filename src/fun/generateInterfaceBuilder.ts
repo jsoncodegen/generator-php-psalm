@@ -27,6 +27,9 @@ export async function generateInterfaceBuilder(
 		BUILDER_FOLDER_NAME,
 		...directoryPath,
 	)};`
+	const requiredFields = interfaceFields.filter(
+		(field) => !field.fieldType.isNullable,
+	)
 	const fieldDeclarations = joinArrayWith(`\n`)(
 		interfaceFields.map((field) => {
 			return lineBreakBefore(
@@ -53,7 +56,7 @@ export async function generateInterfaceBuilder(
 	const comment = makeComment(
 		joinWith('\n')(
 			interfaceDescription,
-			...interfaceFields.map((field) => `@template __Has_${field.name}__`),
+			...requiredFields.map((field) => `@template __Has_${field.name}__`),
 		),
 	)
 	const gettersAndSetters = joinArrayWith('\n\n')(
@@ -64,7 +67,7 @@ export async function generateInterfaceBuilder(
 					? join(
 							'<',
 							joinArrayWith(', ')(
-								interfaceFields.map((field2) =>
+								requiredFields.map((field2) =>
 									field === field2 ? `"OK"` : `__Has_${field2.name}__`,
 								),
 							),

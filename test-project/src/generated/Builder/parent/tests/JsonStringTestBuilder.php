@@ -6,27 +6,18 @@ namespace JCG\Test\generated\Builder\parent\tests;
  * This tests string values.
  * @template __Has_name__
  * @template __Has_nameWithDescription__
- * @template __Has_nameOrNull__
  * @template __Has_arrayOfNames__
  * @template __Has_arrayOfArraysOfNames__
  * @template __Has_arrayOfNamesAndNulls__
- * @template __Has_arrayOfNamesOrNull__
- * @template __Has_arrayOfNamesAndNullsOrNull__
  * @template __Has_mapOfNames__
  * @template __Has_mapOfMapsOfNames__
  * @template __Has_mapOfNullsAndNames__
- * @template __Has_mapOfNamesOrNull__
- * @template __Has_mapOfNullsAndNamesOrNull__
  * @template __Has_arrayOfMapsOfNames__
- * @template __Has_arrayOfMapsOfNamesOrNull__
  * @template __Has_arrayOfNullsAndMapsOfNames__
  * @template __Has_arrayOfMapsOfNullsAndNames__
- * @template __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__
  * @template __Has_mapOfArraysOfNames__
- * @template __Has_mapOfArraysOfNamesOrNull__
  * @template __Has_mapOfNullsAndArraysOfNames__
  * @template __Has_mapOfArraysOfNullsAndNames__
- * @template __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__
  */
 final class JsonStringTestBuilder
 {
@@ -157,13 +148,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param string $value
-	 * @return JsonStringTestBuilder<"OK", __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<"OK", __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setName($value)
 	{
 		$this->name = $value;
 		/**
-		 * @var JsonStringTestBuilder<"OK", __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<"OK", __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -181,13 +172,13 @@ final class JsonStringTestBuilder
 	/**
 	 * This is a name.
 	 * @param string $value
-	 * @return JsonStringTestBuilder<__Has_name__, "OK", __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, "OK", __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setNameWithDescription($value)
 	{
 		$this->nameWithDescription = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, "OK", __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, "OK", __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -203,13 +194,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param string|null $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, "OK", __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setNameOrNull($value)
 	{
 		$this->nameOrNull = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, "OK", __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -225,13 +216,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param list<string> $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, "OK", __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, "OK", __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setArrayOfNames($value)
 	{
 		$this->arrayOfNames = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, "OK", __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, "OK", __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -247,13 +238,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param list<list<string>> $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, "OK", __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, "OK", __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setArrayOfArraysOfNames($value)
 	{
 		$this->arrayOfArraysOfNames = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, "OK", __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, "OK", __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -269,13 +260,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param list<string|null> $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, "OK", __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, "OK", __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setArrayOfNamesAndNulls($value)
 	{
 		$this->arrayOfNamesAndNulls = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, "OK", __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, "OK", __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -291,13 +282,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param list<string>|null $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, "OK", __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setArrayOfNamesOrNull($value)
 	{
 		$this->arrayOfNamesOrNull = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, "OK", __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -313,13 +304,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param list<string|null>|null $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, "OK", __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setArrayOfNamesAndNullsOrNull($value)
 	{
 		$this->arrayOfNamesAndNullsOrNull = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, "OK", __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -335,13 +326,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<string> $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, "OK", __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, "OK", __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setMapOfNames($value)
 	{
 		$this->mapOfNames = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, "OK", __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, "OK", __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -357,13 +348,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Util\JsonMap<string>> $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, "OK", __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, "OK", __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setMapOfMapsOfNames($value)
 	{
 		$this->mapOfMapsOfNames = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, "OK", __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, "OK", __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -379,13 +370,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<string|null> $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, "OK", __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, "OK", __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setMapOfNullsAndNames($value)
 	{
 		$this->mapOfNullsAndNames = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, "OK", __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, "OK", __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -401,13 +392,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<string>|null $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, "OK", __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setMapOfNamesOrNull($value)
 	{
 		$this->mapOfNamesOrNull = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, "OK", __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -423,13 +414,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<string|null>|null $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, "OK", __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setMapOfNullsAndNamesOrNull($value)
 	{
 		$this->mapOfNullsAndNamesOrNull = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, "OK", __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -445,13 +436,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<string>> $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, "OK", __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, "OK", __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setArrayOfMapsOfNames($value)
 	{
 		$this->arrayOfMapsOfNames = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, "OK", __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, "OK", __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -467,13 +458,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<string>>|null $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, "OK", __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setArrayOfMapsOfNamesOrNull($value)
 	{
 		$this->arrayOfMapsOfNamesOrNull = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, "OK", __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -489,13 +480,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<string>|null> $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, "OK", __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, "OK", __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setArrayOfNullsAndMapsOfNames($value)
 	{
 		$this->arrayOfNullsAndMapsOfNames = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, "OK", __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, "OK", __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -511,13 +502,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<string|null>> $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, "OK", __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, "OK", __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setArrayOfMapsOfNullsAndNames($value)
 	{
 		$this->arrayOfMapsOfNullsAndNames = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, "OK", __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, "OK", __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -533,13 +524,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param list<\JCG\Test\generated\Util\JsonMap<string|null>|null>|null $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, "OK", __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setArrayOfNullsAndMapsOfNullsAndNamesOrNull($value)
 	{
 		$this->arrayOfNullsAndMapsOfNullsAndNamesOrNull = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, "OK", __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -555,13 +546,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<string>> $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, "OK", __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, "OK", __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setMapOfArraysOfNames($value)
 	{
 		$this->mapOfArraysOfNames = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, "OK", __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, "OK", __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -577,13 +568,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<string>>|null $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, "OK", __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setMapOfArraysOfNamesOrNull($value)
 	{
 		$this->mapOfArraysOfNamesOrNull = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, "OK", __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -599,13 +590,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<string>|null> $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, "OK", __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, "OK", __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setMapOfNullsAndArraysOfNames($value)
 	{
 		$this->mapOfNullsAndArraysOfNames = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, "OK", __Has_mapOfArraysOfNullsAndNames__, __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, "OK", __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;
@@ -621,13 +612,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<string|null>> $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, "OK", __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__>
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, "OK">
 	 */
 	public function setMapOfArraysOfNullsAndNames($value)
 	{
 		$this->mapOfArraysOfNullsAndNames = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, "OK", __Has_mapOfNullsAndArraysOfNullsAndNamesOrNull__> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, "OK"> $that
 		 */
 		$that = $this;
 		return $that;
@@ -643,13 +634,13 @@ final class JsonStringTestBuilder
 
 	/**
 	 * @param \JCG\Test\generated\Util\JsonMap<list<string|null>|null>|null $value
-	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, "OK">
+	 * @return JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__>
 	 */
 	public function setMapOfNullsAndArraysOfNullsAndNamesOrNull($value)
 	{
 		$this->mapOfNullsAndArraysOfNullsAndNamesOrNull = $value;
 		/**
-		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_nameOrNull__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_arrayOfNamesOrNull__, __Has_arrayOfNamesAndNullsOrNull__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_mapOfNamesOrNull__, __Has_mapOfNullsAndNamesOrNull__, __Has_arrayOfMapsOfNames__, __Has_arrayOfMapsOfNamesOrNull__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_arrayOfNullsAndMapsOfNullsAndNamesOrNull__, __Has_mapOfArraysOfNames__, __Has_mapOfArraysOfNamesOrNull__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__, "OK"> $that
+		 * @var JsonStringTestBuilder<__Has_name__, __Has_nameWithDescription__, __Has_arrayOfNames__, __Has_arrayOfArraysOfNames__, __Has_arrayOfNamesAndNulls__, __Has_mapOfNames__, __Has_mapOfMapsOfNames__, __Has_mapOfNullsAndNames__, __Has_arrayOfMapsOfNames__, __Has_arrayOfNullsAndMapsOfNames__, __Has_arrayOfMapsOfNullsAndNames__, __Has_mapOfArraysOfNames__, __Has_mapOfNullsAndArraysOfNames__, __Has_mapOfArraysOfNullsAndNames__> $that
 		 */
 		$that = $this;
 		return $that;

@@ -148,7 +148,7 @@ final class JsonNumberEnumValueLocalTest
 	public $mapOfNullsAndArraysOfNullsAndEnumValuesOrNull;
 
 	/**
-	 * @param \JCG\Test\generated\Builder\parent\tests\JsonNumberEnumValueLocalTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"> $builder
+	 * @param \JCG\Test\generated\Builder\parent\tests\JsonNumberEnumValueLocalTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"> $builder
 	 * @throws \Exception
 	 */
 	public function __construct($builder)
