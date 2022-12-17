@@ -126,7 +126,8 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	}
 	
 	/**
-	 * @inheritDoc
+	 * @param string $data
+	 * @return void
 	 */
 	public function __unserialize($data)
 	{
