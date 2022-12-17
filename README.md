@@ -1,122 +1,72 @@
-# jsoncodegen-generator-typescript
+# jsoncodegen-generator-php-psalm
 
-> jsoncodegen JSON to TypeScript code generator.
+> jsoncodegen JSON to PHP (with Psalm) code generator.
 
-Generates TypeScript interfaces from jsoncodegen interfaces. Enums are converted to TypeScript enums.
+Generates PHP classes from jsoncodegen interfaces.
 
 ## Output directories
 
-### `__type__`
+### `Type`
 
-Contains all the interfaces & enums.
+Contains all the classes generated from interfaces & enums.
 
-### `__factory__`
+### `Builder`
 
-Contains factory functions for each interface. It is recommended to use these factory functions to create instances of each interface, because they can fill in some properties automatically and also ensure strict type checks.
+Contains builder classes for each interface. These ensure that all required fields are defined.
 
-Factory functions can be called like this:
+Use them like this:
 
-```TS
-const myObject = makeMyObject({
-  name: 'Budapest',
-  flag: true,
-  count: 3,
-})
+```PHP
+$myObject = new MyObject(
+  (new MyObjectBuilder())
+    ->setName('Budapest')
+    ->setFlag(true)
+    ->setCount(3)
+);
 ```
 
-### `__union_type__`
+### `Assert`
 
-Contains TypeScript union types that can be very useful when you need to identify a type based on a property.
+Contains assertion functions. These functions validate an object and throw an `\Exception` if the given object does not match the interface. They also ensure that `Map`s are handled correctly (wrapped into `JsonMap`). They can be called like this:
 
-*This folder is only generated if you have at least one interface that has an enum value property.*
-
-Let's say you have multiple city interfaces defined like this:
-
-**Budapest.json**
-
-```JSON
-{
-  ".is": "interface",
-  ".description": "The city of Budapest.",
-  
-  "cityId": "./CityID.Budapest"
-}
-```
-
-And you have a CityID enum defined like this:
-
-**CityID.json**
-
-```JSON
-{
-  ".is": "enum",
-  ".description": "City IDs.",
-
-  "Boston": "Boston",
-  "Budapest": "Budapest"
-}
-```
-
-The `__union_type__` folder will contain `THas_cityId.ts`, and you can use it like this:
-
-```TS
-function workWithCity(city: THas_cityId) {
-  switch (city.cityId) {
-    case CityID.Boston:
-      // city is now an instance of the Boston interface
-      break
-    case CityID.Budapest:
-      // city is now an instance of the Budapest interface
-      break
-  }
-}
-```
-
-### `__assert__`
-
-Contains assertion functions. These functions validate an object and throw an `__assert_utility__/AssertionError` if the given object does not match the interface. They can be called like this:
-
-```TS
-const myObject = getMyObjectFromSomewhere()
+```PHP
+$myObject = getMyObjectFromSomewhere();
 try {
-  assertMyObject(myObject)
-  // myObject is now an instance of the MyObject interface
-} catch (e) {
-  if (e instanceof AssertionError) {
-    // e.message indicates where the problem is
-  }
+  AssertMyObject::assert(myObject);
+} catch (\Exception $e) {
+  // $e indicates where the problem is
 }
 ```
 
-### `__assert_utility__`
+### `Util`
 
-Contains functions and classes used by assertions in the `__assert__` folder.
+Contains utilities used by assertions in the `Assert` folder.
 
 ## Install
 
 ```
-npm i -D jsoncodegen-generator-typescript
+npm i -D jsoncodegen-generator-php-psalm
 ```
 
 ## Config
 
-Configuration can be put in jsoncodegen-generator-typescript.config.js and passed to jsoncodegen in the config parameter:
+Configuration can be put in jsoncodegen-generator-php-psalm.config.js and passed to jsoncodegen in the config parameter:
 
 ```
-jsoncodegen --generator typescript --config jsoncodegen-generator-typescript.config.js ...
+jsoncodegen --generator php-psalm --config jsoncodegen-generator-php-psalm.config.js ...
 ```
 
-**jsoncodegen-generator-java-jackson.config.js**
+**jsoncodegen-generator-php-psalm.config.js**
 
 ```js
 module.exports = {
-  isMutable: false
+  namespaceBase: 'MyCompany\\MyProject\\Json'
 }
 ```
 
-### `isMutable?: boolean`
+### `namespaceBase: string`
 
-If `true`, emitted interface properties, arrays and maps will not be `readonly`.
+Makes all namespaces use the given base. The necessary folders will not be created by this tool.
 
 ## License
 
