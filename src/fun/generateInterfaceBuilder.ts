@@ -63,7 +63,7 @@ export async function generateInterfaceBuilder(
 		interfaceFields.map((field) => {
 			const newStateType = join(
 				interfaceBuilderName,
-				interfaceFields.length
+				requiredFields.length
 					? join(
 							'<',
 							joinArrayWith(', ')(
