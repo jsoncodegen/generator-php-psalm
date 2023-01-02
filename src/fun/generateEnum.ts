@@ -24,6 +24,18 @@ export async function generateEnum(
 		TYPE_FOLDER_NAME,
 		...directoryPath,
 	)};`
+	const typeDecl = makeComment(
+		joinWith(' ')(
+			'@psalm-type',
+			name + 'Type',
+			'=',
+			joinArrayWith('|')(
+				(values as INumberEnumValue[]).map((t) =>
+					JSON.stringify(t.value).replace(/\$/g, '\\$'),
+				),
+			),
+		),
+	)
 	const enumValueDeclarations = joinArrayWith(`\n`)(
 		(values as INumberEnumValue[]).map((t) => {
 			const comment = lineBreakBefore(indent(makeComment(t.description)))
@@ -34,6 +46,7 @@ export async function generateEnum(
 	const comment = makeComment(description)
 	const declaration = templateOfEnum({
 		namespaceDecl,
+		typeDecl,
 		comment,
 		enumName: name,
 		enumValueDeclarations,

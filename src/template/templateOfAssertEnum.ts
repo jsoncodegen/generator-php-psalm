@@ -1,6 +1,7 @@
 export function templateOfAssertEnum({
 	enumName,
 	enumAlias,
+	enumType,
 	assertFunAlias,
 	values,
 	comment,
@@ -8,6 +9,7 @@ export function templateOfAssertEnum({
 }: {
 	enumName: string
 	enumAlias: string
+	enumType: string
 	assertFunAlias: string
 	values: string
 	comment: string
@@ -28,7 +30,7 @@ ${comment}
 	)}') {
 		if (is_null($isNullable)) $isNullable = false;
 		if (is_null($path)) $path = '${enumAlias.replace(/\\/g, '\\\\')}';
-		/** @var ${enumAlias}|null $result */
+		/** @var ${enumType}|null $result */
 		$result = ${assertFunAlias}(
 			self::__VALUES__,
 			$o,

@@ -1,7 +1,7 @@
 {
 	"name": "jsoncodegen-generator-php-psalm",
 	"description": "jsoncodegen JSON to PHP (with Psalm) code generator.",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"author": {
 		"name": "András Parditka"
 	},
@@ -32,6 +32,6 @@
 		"watch": "rimraf dist && tsc -p . -w",
 		"generate": "jsoncodegen -i node_modules/jsoncodegen-test-json/dist -o test-project/src/generated -g ./dist -c test-project/jsoncodegen.config",
 		"test": "jest",
-		"test-output": "cd test-project && yarn && yarn compile && yarn test"
+		"test-output": "cd test-project && php composer.phar run test && php src/index.php"
 	}
 }

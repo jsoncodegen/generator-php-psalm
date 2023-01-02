@@ -1,4 +1,8 @@
-import { IGeneratorResult, IInterface } from 'jsoncodegen-types-for-generator'
+import {
+	IGeneratorResult,
+	IInterface,
+	TNamedType,
+} from 'jsoncodegen-types-for-generator'
 import { BUILDER_FOLDER_NAME, TYPE_FOLDER_NAME } from '../model/constants'
 import { IConfig } from '../model/IConfig'
 import { templateOfInterface } from '../template/templateOfInterface'
@@ -15,6 +19,7 @@ import { makeComment } from './makeComment'
 
 export async function generateInterface(
 	config: IConfig,
+	namedTypesById: Map<string, TNamedType>,
 	info: IInterface,
 ): Promise<IGeneratorResult[]> {
 	const {
@@ -39,7 +44,7 @@ export async function generateInterface(
 								'@readonly',
 								joinWith(' ')(
 									'@var',
-									fieldTypeToString(config, field.fieldType),
+									fieldTypeToString(config, namedTypesById, field.fieldType),
 								),
 							),
 						),
@@ -133,7 +138,7 @@ export async function generateInterface(
 			filePath: [TYPE_FOLDER_NAME, ...directoryPath, interfaceName + `.php`],
 			content: interfaceDeclaration,
 		},
-		await generateInterfaceBuilder(config, info),
+		await generateInterfaceBuilder(config, namedTypesById, info),
 		await generateInterfaceAssert(config, info),
 	]
 }

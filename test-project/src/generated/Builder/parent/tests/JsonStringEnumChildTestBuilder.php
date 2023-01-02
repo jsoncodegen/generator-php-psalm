@@ -23,123 +23,123 @@ final class JsonStringEnumChildTestBuilder
 {
 
 	/**
-	 * @var \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null
+	 * @var \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	private $enum_ = null;
 
 	/**
 	 * This is an enum.
-	 * @var \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null
+	 * @var \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	private $enumWithDescription = null;
 
 	/**
-	 * @var \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null
+	 * @var \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	private $enumOrNull = null;
 
 	/**
-	 * @var list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null
+	 * @var list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null
 	 */
 	private $arrayOfEnums = null;
 
 	/**
-	 * @var list<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>>|null
+	 * @var list<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>>|null
 	 */
 	private $arrayOfArraysOfEnums = null;
 
 	/**
-	 * @var list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null
+	 * @var list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null
 	 */
 	private $arrayOfEnumsAndNulls = null;
 
 	/**
-	 * @var list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null
+	 * @var list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null
 	 */
 	private $arrayOfEnumsOrNull = null;
 
 	/**
-	 * @var list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null
+	 * @var list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null
 	 */
 	private $arrayOfEnumsAndNullsOrNull = null;
 
 	/**
-	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null
 	 */
 	private $mapOfEnums = null;
 
 	/**
-	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>>|null
 	 */
 	private $mapOfMapsOfEnums = null;
 
 	/**
-	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null
 	 */
 	private $mapOfNullsAndEnums = null;
 
 	/**
-	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null
 	 */
 	private $mapOfEnumsOrNull = null;
 
 	/**
-	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null
 	 */
 	private $mapOfNullsAndEnumsOrNull = null;
 
 	/**
-	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>>|null
+	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>>|null
 	 */
 	private $arrayOfMapsOfEnums = null;
 
 	/**
-	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>>|null
+	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>>|null
 	 */
 	private $arrayOfMapsOfEnumsOrNull = null;
 
 	/**
-	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null>|null
+	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null>|null
 	 */
 	private $arrayOfNullsAndMapsOfEnums = null;
 
 	/**
-	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>>|null
+	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>>|null
 	 */
 	private $arrayOfMapsOfNullsAndEnums = null;
 
 	/**
-	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null>|null
+	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null>|null
 	 */
 	private $arrayOfNullsAndMapsOfNullsAndEnumsOrNull = null;
 
 	/**
-	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>>|null
 	 */
 	private $mapOfArraysOfEnums = null;
 
 	/**
-	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>>|null
 	 */
 	private $mapOfArraysOfEnumsOrNull = null;
 
 	/**
-	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null>|null
 	 */
 	private $mapOfNullsAndArraysOfEnums = null;
 
 	/**
-	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>>|null
 	 */
 	private $mapOfArraysOfNullsAndEnums = null;
 
 	/**
-	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null>|null
 	 */
 	private $mapOfNullsAndArraysOfNullsAndEnumsOrNull = null;
 
 	/**
-	 * @return \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null
+	 * @return \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	public function getEnum_()
 	{
@@ -147,7 +147,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum $value
+	 * @param \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue $value
 	 * @return JsonStringEnumChildTestBuilder<"OK", __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setEnum_($value)
@@ -162,7 +162,7 @@ final class JsonStringEnumChildTestBuilder
 
 	/**
 	 * This is an enum.
-	 * @return \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null
+	 * @return \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	public function getEnumWithDescription()
 	{
@@ -171,7 +171,7 @@ final class JsonStringEnumChildTestBuilder
 
 	/**
 	 * This is an enum.
-	 * @param \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum $value
+	 * @param \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, "OK", __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setEnumWithDescription($value)
@@ -185,7 +185,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null
+	 * @return \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	public function getEnumOrNull()
 	{
@@ -193,7 +193,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null $value
+	 * @param \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setEnumOrNull($value)
@@ -207,7 +207,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null
+	 * @return list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null
 	 */
 	public function getArrayOfEnums()
 	{
@@ -215,7 +215,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum> $value
+	 * @param list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue> $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, "OK", __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfEnums($value)
@@ -229,7 +229,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return list<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>>|null
+	 * @return list<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>>|null
 	 */
 	public function getArrayOfArraysOfEnums()
 	{
@@ -237,7 +237,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param list<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>> $value
+	 * @param list<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>> $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, "OK", __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfArraysOfEnums($value)
@@ -251,7 +251,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null
+	 * @return list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null
 	 */
 	public function getArrayOfEnumsAndNulls()
 	{
@@ -259,7 +259,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null> $value
+	 * @param list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null> $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, "OK", __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfEnumsAndNulls($value)
@@ -273,7 +273,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null
+	 * @return list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null
 	 */
 	public function getArrayOfEnumsOrNull()
 	{
@@ -281,7 +281,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null $value
+	 * @param list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfEnumsOrNull($value)
@@ -295,7 +295,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null
+	 * @return list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null
 	 */
 	public function getArrayOfEnumsAndNullsOrNull()
 	{
@@ -303,7 +303,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null $value
+	 * @param list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfEnumsAndNullsOrNull($value)
@@ -317,7 +317,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null
+	 * @return \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null
 	 */
 	public function getMapOfEnums()
 	{
@@ -325,7 +325,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum> $value
+	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue> $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, "OK", __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfEnums($value)
@@ -339,7 +339,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>>|null
+	 * @return \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>>|null
 	 */
 	public function getMapOfMapsOfEnums()
 	{
@@ -347,7 +347,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>> $value
+	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>> $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, "OK", __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfMapsOfEnums($value)
@@ -361,7 +361,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null
+	 * @return \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null
 	 */
 	public function getMapOfNullsAndEnums()
 	{
@@ -369,7 +369,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null> $value
+	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null> $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, "OK", __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfNullsAndEnums($value)
@@ -383,7 +383,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null
+	 * @return \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null
 	 */
 	public function getMapOfEnumsOrNull()
 	{
@@ -391,7 +391,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null $value
+	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfEnumsOrNull($value)
@@ -405,7 +405,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null
+	 * @return \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null
 	 */
 	public function getMapOfNullsAndEnumsOrNull()
 	{
@@ -413,7 +413,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null $value
+	 * @param \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfNullsAndEnumsOrNull($value)
@@ -427,7 +427,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>>|null
+	 * @return list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>>|null
 	 */
 	public function getArrayOfMapsOfEnums()
 	{
@@ -435,7 +435,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>> $value
+	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>> $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, "OK", __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfMapsOfEnums($value)
@@ -449,7 +449,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>>|null
+	 * @return list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>>|null
 	 */
 	public function getArrayOfMapsOfEnumsOrNull()
 	{
@@ -457,7 +457,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>>|null $value
+	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>>|null $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfMapsOfEnumsOrNull($value)
@@ -471,7 +471,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null>|null
+	 * @return list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null>|null
 	 */
 	public function getArrayOfNullsAndMapsOfEnums()
 	{
@@ -479,7 +479,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null> $value
+	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null> $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, "OK", __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfNullsAndMapsOfEnums($value)
@@ -493,7 +493,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>>|null
+	 * @return list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>>|null
 	 */
 	public function getArrayOfMapsOfNullsAndEnums()
 	{
@@ -501,7 +501,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>> $value
+	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>> $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, "OK", __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfMapsOfNullsAndEnums($value)
@@ -515,7 +515,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null>|null
+	 * @return list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null>|null
 	 */
 	public function getArrayOfNullsAndMapsOfNullsAndEnumsOrNull()
 	{
@@ -523,7 +523,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null>|null $value
+	 * @param list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null>|null $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setArrayOfNullsAndMapsOfNullsAndEnumsOrNull($value)
@@ -537,7 +537,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>>|null
+	 * @return \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>>|null
 	 */
 	public function getMapOfArraysOfEnums()
 	{
@@ -545,7 +545,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>> $value
+	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>> $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, "OK", __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfArraysOfEnums($value)
@@ -559,7 +559,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>>|null
+	 * @return \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>>|null
 	 */
 	public function getMapOfArraysOfEnumsOrNull()
 	{
@@ -567,7 +567,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>>|null $value
+	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>>|null $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfArraysOfEnumsOrNull($value)
@@ -581,7 +581,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null>|null
+	 * @return \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null>|null
 	 */
 	public function getMapOfNullsAndArraysOfEnums()
 	{
@@ -589,7 +589,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum>|null> $value
+	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue>|null> $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, "OK", __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfNullsAndArraysOfEnums($value)
@@ -603,7 +603,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>>|null
+	 * @return \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>>|null
 	 */
 	public function getMapOfArraysOfNullsAndEnums()
 	{
@@ -611,7 +611,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>> $value
+	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>> $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, "OK">
 	 */
 	public function setMapOfArraysOfNullsAndEnums($value)
@@ -625,7 +625,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null>|null
+	 * @return \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null>|null
 	 */
 	public function getMapOfNullsAndArraysOfNullsAndEnumsOrNull()
 	{
@@ -633,7 +633,7 @@ final class JsonStringEnumChildTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null>|null>|null $value
+	 * @param \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null>|null>|null $value
 	 * @return JsonStringEnumChildTestBuilder<__Has_enum___, __Has_enumWithDescription__, __Has_arrayOfEnums__, __Has_arrayOfArraysOfEnums__, __Has_arrayOfEnumsAndNulls__, __Has_mapOfEnums__, __Has_mapOfMapsOfEnums__, __Has_mapOfNullsAndEnums__, __Has_arrayOfMapsOfEnums__, __Has_arrayOfNullsAndMapsOfEnums__, __Has_arrayOfMapsOfNullsAndEnums__, __Has_mapOfArraysOfEnums__, __Has_mapOfNullsAndArraysOfEnums__, __Has_mapOfArraysOfNullsAndEnums__>
 	 */
 	public function setMapOfNullsAndArraysOfNullsAndEnumsOrNull($value)

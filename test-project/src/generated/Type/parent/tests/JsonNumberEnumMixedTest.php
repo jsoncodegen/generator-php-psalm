@@ -10,31 +10,31 @@ final class JsonNumberEnumMixedTest
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum
+	 * @var \JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum::NameOfFractionValue
 	 */
 	public $child;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\parent\tests\JsonNumberEnum
+	 * @var \JCG\Test\generated\Type\parent\tests\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\tests\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\JsonNumberEnum::NameOfFractionValue
 	 */
 	public $local;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\parent\JsonNumberEnum
+	 * @var \JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue
 	 */
 	public $parent;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\JsonNumberEnum
+	 * @var \JCG\Test\generated\Type\JsonNumberEnum::Name|\JCG\Test\generated\Type\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\JsonNumberEnum::NameOfFractionValue
 	 */
 	public $root;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\parent\sibling\JsonNumberEnum
+	 * @var \JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::NameOfFractionValue
 	 */
 	public $sibling;
 

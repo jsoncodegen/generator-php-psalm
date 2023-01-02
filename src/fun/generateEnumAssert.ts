@@ -3,6 +3,7 @@ import {
 	INumberEnum,
 	INumberEnumValue,
 	IStringEnum,
+	IStringEnumValue,
 } from 'jsoncodegen-types-for-generator'
 import {
 	ASSERT_FOLDER_NAME,
@@ -19,8 +20,9 @@ import { makeComment } from './makeComment'
 
 export async function generateEnumAssert(
 	config: IConfig,
-	{ directoryPath, values, name, kind }: IStringEnum | INumberEnum,
+	enumType: IStringEnum | INumberEnum,
 ): Promise<IGeneratorResult> {
+	const { directoryPath, values, name, kind } = enumType
 	const assertFunName =
 		kind === 'StringEnum' ? `assertStringEnumValue` : `assertNumberEnumValue`
 	const assertFunAlias = join(
@@ -60,13 +62,18 @@ export async function generateEnumAssert(
 			),
 		),
 	)
+	const enumTypeDecl = joinArrayWith('|')(
+		(enumType.values as (IStringEnumValue | INumberEnumValue)[]).map(
+			(value) => enumAlias + '::' + value.name,
+		),
+	)
 	const comment = indent(
 		makeComment(
 			joinWith('\n')(
 				'@param mixed $o',
 				'@param ?bool $isNullable',
 				'@param ?string $path',
-				joinWith(' ')('@return', join(enumAlias, '|null')),
+				joinWith(' ')('@return', join(enumTypeDecl, '|null')),
 				'@throws \\Exception',
 			),
 		),
@@ -78,6 +85,7 @@ export async function generateEnumAssert(
 			comment,
 			enumName: name,
 			enumAlias: enumAlias,
+			enumType: enumTypeDecl,
 			assertFunAlias,
 			values: valuesString,
 		}),

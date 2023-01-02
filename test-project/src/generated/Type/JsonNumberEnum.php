@@ -3,6 +3,10 @@
 namespace JCG\Test\generated\Type;
 
 /**
+ * @psalm-type JsonNumberEnumType = 0|1|3.14
+ */
+
+/**
  * This is a number enum.
  */
 abstract class JsonNumberEnum

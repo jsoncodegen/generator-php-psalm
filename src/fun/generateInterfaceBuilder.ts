@@ -1,4 +1,8 @@
-import { IGeneratorResult, IInterface } from 'jsoncodegen-types-for-generator'
+import {
+	IGeneratorResult,
+	IInterface,
+	TNamedType,
+} from 'jsoncodegen-types-for-generator'
 import { BUILDER_FOLDER_NAME } from '../model/constants'
 import { IConfig } from '../model/IConfig'
 import { templateOfInterfaceBuilder } from '../template/templateOfInterfaceBuilder'
@@ -13,6 +17,7 @@ import { makeComment } from './makeComment'
 
 export async function generateInterfaceBuilder(
 	config: IConfig,
+	namedTypesById: Map<string, TNamedType>,
 	info: IInterface,
 ): Promise<IGeneratorResult> {
 	const {
@@ -41,7 +46,7 @@ export async function generateInterfaceBuilder(
 								joinWith(' ')(
 									'@var',
 									join(
-										fieldTypeToString(config, field.fieldType),
+										fieldTypeToString(config, namedTypesById, field.fieldType),
 										field.fieldType.isNullable ? '' : '|null',
 									),
 								),
@@ -84,7 +89,7 @@ export async function generateInterfaceBuilder(
 								joinWith(' ')(
 									`@return`,
 									join(
-										fieldTypeToString(config, field.fieldType),
+										fieldTypeToString(config, namedTypesById, field.fieldType),
 										field.fieldType.isNullable ? '' : '|null',
 									),
 								),
@@ -103,7 +108,7 @@ export async function generateInterfaceBuilder(
 								field.description,
 								joinWith(' ')(
 									`@param`,
-									fieldTypeToString(config, field.fieldType),
+									fieldTypeToString(config, namedTypesById, field.fieldType),
 									'$value',
 								),
 								joinWith(' ')(`@return`, newStateType),

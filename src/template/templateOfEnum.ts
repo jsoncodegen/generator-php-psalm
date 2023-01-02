@@ -1,10 +1,12 @@
 export function templateOfEnum({
 	namespaceDecl,
+	typeDecl,
 	comment,
 	enumName,
 	enumValueDeclarations,
 }: {
 	namespaceDecl: string
+	typeDecl: string
 	comment: string
 	enumName: string
 	enumValueDeclarations: string
@@ -12,6 +14,8 @@ export function templateOfEnum({
 	return `<?php
 
 ${namespaceDecl}
+
+${typeDecl}
 
 ${comment}
 abstract class ${enumName}

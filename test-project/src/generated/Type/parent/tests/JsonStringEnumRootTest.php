@@ -10,140 +10,140 @@ final class JsonStringEnumRootTest
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\JsonStringEnum
+	 * @var \JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue
 	 */
 	public $enum_;
 
 	/**
 	 * This is an enum.
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\JsonStringEnum
+	 * @var \JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue
 	 */
 	public $enumWithDescription;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\JsonStringEnum|null
+	 * @var \JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	public $enumOrNull;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Type\JsonStringEnum>
+	 * @var list<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue>
 	 */
 	public $arrayOfEnums;
 
 	/**
 	 * @readonly
-	 * @var list<list<\JCG\Test\generated\Type\JsonStringEnum>>
+	 * @var list<list<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue>>
 	 */
 	public $arrayOfArraysOfEnums;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Type\JsonStringEnum|null>
+	 * @var list<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue|null>
 	 */
 	public $arrayOfEnumsAndNulls;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Type\JsonStringEnum>|null
+	 * @var list<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue>|null
 	 */
 	public $arrayOfEnumsOrNull;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Type\JsonStringEnum|null>|null
+	 * @var list<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue|null>|null
 	 */
 	public $arrayOfEnumsAndNullsOrNull;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum>
+	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue>
 	 */
 	public $mapOfEnums;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum>>
+	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue>>
 	 */
 	public $mapOfMapsOfEnums;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum|null>
+	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue|null>
 	 */
 	public $mapOfNullsAndEnums;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue>|null
 	 */
 	public $mapOfEnumsOrNull;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum|null>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue|null>|null
 	 */
 	public $mapOfNullsAndEnumsOrNull;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum>>
+	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue>>
 	 */
 	public $arrayOfMapsOfEnums;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum>>|null
+	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue>>|null
 	 */
 	public $arrayOfMapsOfEnumsOrNull;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum>|null>
+	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue>|null>
 	 */
 	public $arrayOfNullsAndMapsOfEnums;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum|null>>
+	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue|null>>
 	 */
 	public $arrayOfMapsOfNullsAndEnums;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum|null>|null>|null
+	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue|null>|null>|null
 	 */
 	public $arrayOfNullsAndMapsOfNullsAndEnumsOrNull;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\JsonStringEnum>>
+	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue>>
 	 */
 	public $mapOfArraysOfEnums;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\JsonStringEnum>>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue>>|null
 	 */
 	public $mapOfArraysOfEnumsOrNull;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\JsonStringEnum>|null>
+	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue>|null>
 	 */
 	public $mapOfNullsAndArraysOfEnums;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\JsonStringEnum|null>>
+	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue|null>>
 	 */
 	public $mapOfArraysOfNullsAndEnums;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\JsonStringEnum|null>|null>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue|null>|null>|null
 	 */
 	public $mapOfNullsAndArraysOfNullsAndEnumsOrNull;
 

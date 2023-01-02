@@ -3,6 +3,10 @@
 namespace JCG\Test\generated\Type;
 
 /**
+ * @psalm-type JsonStringEnumType = "Value"|"ValueWithDescription"|""
+ */
+
+/**
  * This is a string enum.
  */
 abstract class JsonStringEnum

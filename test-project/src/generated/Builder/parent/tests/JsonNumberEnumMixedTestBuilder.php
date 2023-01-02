@@ -14,32 +14,32 @@ final class JsonNumberEnumMixedTestBuilder
 {
 
 	/**
-	 * @var \JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum|null
+	 * @var \JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum::NameOfFractionValue|null
 	 */
 	private $child = null;
 
 	/**
-	 * @var \JCG\Test\generated\Type\parent\tests\JsonNumberEnum|null
+	 * @var \JCG\Test\generated\Type\parent\tests\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\tests\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\JsonNumberEnum::NameOfFractionValue|null
 	 */
 	private $local = null;
 
 	/**
-	 * @var \JCG\Test\generated\Type\parent\JsonNumberEnum|null
+	 * @var \JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue|null
 	 */
 	private $parent = null;
 
 	/**
-	 * @var \JCG\Test\generated\Type\JsonNumberEnum|null
+	 * @var \JCG\Test\generated\Type\JsonNumberEnum::Name|\JCG\Test\generated\Type\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\JsonNumberEnum::NameOfFractionValue|null
 	 */
 	private $root = null;
 
 	/**
-	 * @var \JCG\Test\generated\Type\parent\sibling\JsonNumberEnum|null
+	 * @var \JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::NameOfFractionValue|null
 	 */
 	private $sibling = null;
 
 	/**
-	 * @return \JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum|null
+	 * @return \JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum::NameOfFractionValue|null
 	 */
 	public function getChild()
 	{
@@ -47,7 +47,7 @@ final class JsonNumberEnumMixedTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum $value
+	 * @param \JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum::NameOfFractionValue $value
 	 * @return JsonNumberEnumMixedTestBuilder<"OK", __Has_local__, __Has_parent__, __Has_root__, __Has_sibling__>
 	 */
 	public function setChild($value)
@@ -61,7 +61,7 @@ final class JsonNumberEnumMixedTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Type\parent\tests\JsonNumberEnum|null
+	 * @return \JCG\Test\generated\Type\parent\tests\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\tests\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\JsonNumberEnum::NameOfFractionValue|null
 	 */
 	public function getLocal()
 	{
@@ -69,7 +69,7 @@ final class JsonNumberEnumMixedTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Type\parent\tests\JsonNumberEnum $value
+	 * @param \JCG\Test\generated\Type\parent\tests\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\tests\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\JsonNumberEnum::NameOfFractionValue $value
 	 * @return JsonNumberEnumMixedTestBuilder<__Has_child__, "OK", __Has_parent__, __Has_root__, __Has_sibling__>
 	 */
 	public function setLocal($value)
@@ -83,7 +83,7 @@ final class JsonNumberEnumMixedTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Type\parent\JsonNumberEnum|null
+	 * @return \JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue|null
 	 */
 	public function getParent()
 	{
@@ -91,7 +91,7 @@ final class JsonNumberEnumMixedTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Type\parent\JsonNumberEnum $value
+	 * @param \JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue $value
 	 * @return JsonNumberEnumMixedTestBuilder<__Has_child__, __Has_local__, "OK", __Has_root__, __Has_sibling__>
 	 */
 	public function setParent($value)
@@ -105,7 +105,7 @@ final class JsonNumberEnumMixedTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Type\JsonNumberEnum|null
+	 * @return \JCG\Test\generated\Type\JsonNumberEnum::Name|\JCG\Test\generated\Type\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\JsonNumberEnum::NameOfFractionValue|null
 	 */
 	public function getRoot()
 	{
@@ -113,7 +113,7 @@ final class JsonNumberEnumMixedTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Type\JsonNumberEnum $value
+	 * @param \JCG\Test\generated\Type\JsonNumberEnum::Name|\JCG\Test\generated\Type\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\JsonNumberEnum::NameOfFractionValue $value
 	 * @return JsonNumberEnumMixedTestBuilder<__Has_child__, __Has_local__, __Has_parent__, "OK", __Has_sibling__>
 	 */
 	public function setRoot($value)
@@ -127,7 +127,7 @@ final class JsonNumberEnumMixedTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Type\parent\sibling\JsonNumberEnum|null
+	 * @return \JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::NameOfFractionValue|null
 	 */
 	public function getSibling()
 	{
@@ -135,7 +135,7 @@ final class JsonNumberEnumMixedTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Type\parent\sibling\JsonNumberEnum $value
+	 * @param \JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::NameOfFractionValue $value
 	 * @return JsonNumberEnumMixedTestBuilder<__Has_child__, __Has_local__, __Has_parent__, __Has_root__, "OK">
 	 */
 	public function setSibling($value)

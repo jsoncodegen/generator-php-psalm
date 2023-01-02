@@ -74,6 +74,8 @@ MIT
 
 ## History
 
+1.0.3 Fix enum type loss.
+
 1.0.2 Fix interface setter generics.
 
 1.0.1 Only require non-nullable fields.

@@ -10,31 +10,31 @@ final class JsonStringEnumMixedTest
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum
+	 * @var \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue
 	 */
 	public $child;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\parent\tests\JsonStringEnum
+	 * @var \JCG\Test\generated\Type\parent\tests\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\JsonStringEnum::NameOfEmptyValue
 	 */
 	public $local;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\parent\JsonStringEnum
+	 * @var \JCG\Test\generated\Type\parent\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonStringEnum::NameOfEmptyValue
 	 */
 	public $parent;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\JsonStringEnum
+	 * @var \JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue
 	 */
 	public $root;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\parent\sibling\JsonStringEnum
+	 * @var \JCG\Test\generated\Type\parent\sibling\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\sibling\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\sibling\JsonStringEnum::NameOfEmptyValue
 	 */
 	public $sibling;
 

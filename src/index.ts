@@ -14,7 +14,10 @@ const generator: IGenerator = {
 		for (const namedType of namedTypesById.values()) {
 			switch (namedType.kind) {
 				case 'Interface':
-					result = [...result, ...(await generateInterface(config, namedType))]
+					result = [
+						...result,
+						...(await generateInterface(config, namedTypesById, namedType)),
+					]
 					break
 				case 'NumberEnum':
 				case 'StringEnum':

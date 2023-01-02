@@ -1,14 +1,10 @@
-import {
-	INumberEnumValueReference,
-	IStringEnumValueReference,
-} from 'jsoncodegen-types-for-generator'
 import { IConfig } from '../model/IConfig'
 import { joinWith } from './joinWith'
 import { namedFieldTypeLocalName } from './namedFieldTypeLocalName'
 
 export function namedFieldTypeLocalNameWithEnumValue(
 	config: IConfig,
-	t: IStringEnumValueReference | INumberEnumValueReference,
+	t: { absoluteDirectoryPath: string[]; name: string; valueName: string },
 ) {
 	return joinWith('::')(namedFieldTypeLocalName(config, t), t.valueName)
 }

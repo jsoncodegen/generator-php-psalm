@@ -14,32 +14,32 @@ final class JsonStringEnumMixedTestBuilder
 {
 
 	/**
-	 * @var \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null
+	 * @var \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	private $child = null;
 
 	/**
-	 * @var \JCG\Test\generated\Type\parent\tests\JsonStringEnum|null
+	 * @var \JCG\Test\generated\Type\parent\tests\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	private $local = null;
 
 	/**
-	 * @var \JCG\Test\generated\Type\parent\JsonStringEnum|null
+	 * @var \JCG\Test\generated\Type\parent\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	private $parent = null;
 
 	/**
-	 * @var \JCG\Test\generated\Type\JsonStringEnum|null
+	 * @var \JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	private $root = null;
 
 	/**
-	 * @var \JCG\Test\generated\Type\parent\sibling\JsonStringEnum|null
+	 * @var \JCG\Test\generated\Type\parent\sibling\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\sibling\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\sibling\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	private $sibling = null;
 
 	/**
-	 * @return \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum|null
+	 * @return \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	public function getChild()
 	{
@@ -47,7 +47,7 @@ final class JsonStringEnumMixedTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum $value
+	 * @param \JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::NameOfEmptyValue $value
 	 * @return JsonStringEnumMixedTestBuilder<"OK", __Has_local__, __Has_parent__, __Has_root__, __Has_sibling__>
 	 */
 	public function setChild($value)
@@ -61,7 +61,7 @@ final class JsonStringEnumMixedTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Type\parent\tests\JsonStringEnum|null
+	 * @return \JCG\Test\generated\Type\parent\tests\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	public function getLocal()
 	{
@@ -69,7 +69,7 @@ final class JsonStringEnumMixedTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Type\parent\tests\JsonStringEnum $value
+	 * @param \JCG\Test\generated\Type\parent\tests\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\tests\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\tests\JsonStringEnum::NameOfEmptyValue $value
 	 * @return JsonStringEnumMixedTestBuilder<__Has_child__, "OK", __Has_parent__, __Has_root__, __Has_sibling__>
 	 */
 	public function setLocal($value)
@@ -83,7 +83,7 @@ final class JsonStringEnumMixedTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Type\parent\JsonStringEnum|null
+	 * @return \JCG\Test\generated\Type\parent\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	public function getParent()
 	{
@@ -91,7 +91,7 @@ final class JsonStringEnumMixedTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Type\parent\JsonStringEnum $value
+	 * @param \JCG\Test\generated\Type\parent\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonStringEnum::NameOfEmptyValue $value
 	 * @return JsonStringEnumMixedTestBuilder<__Has_child__, __Has_local__, "OK", __Has_root__, __Has_sibling__>
 	 */
 	public function setParent($value)
@@ -105,7 +105,7 @@ final class JsonStringEnumMixedTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Type\JsonStringEnum|null
+	 * @return \JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	public function getRoot()
 	{
@@ -113,7 +113,7 @@ final class JsonStringEnumMixedTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Type\JsonStringEnum $value
+	 * @param \JCG\Test\generated\Type\JsonStringEnum::Name|\JCG\Test\generated\Type\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\JsonStringEnum::NameOfEmptyValue $value
 	 * @return JsonStringEnumMixedTestBuilder<__Has_child__, __Has_local__, __Has_parent__, "OK", __Has_sibling__>
 	 */
 	public function setRoot($value)
@@ -127,7 +127,7 @@ final class JsonStringEnumMixedTestBuilder
 	}
 
 	/**
-	 * @return \JCG\Test\generated\Type\parent\sibling\JsonStringEnum|null
+	 * @return \JCG\Test\generated\Type\parent\sibling\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\sibling\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\sibling\JsonStringEnum::NameOfEmptyValue|null
 	 */
 	public function getSibling()
 	{
@@ -135,7 +135,7 @@ final class JsonStringEnumMixedTestBuilder
 	}
 
 	/**
-	 * @param \JCG\Test\generated\Type\parent\sibling\JsonStringEnum $value
+	 * @param \JCG\Test\generated\Type\parent\sibling\JsonStringEnum::Name|\JCG\Test\generated\Type\parent\sibling\JsonStringEnum::NameWithDescription|\JCG\Test\generated\Type\parent\sibling\JsonStringEnum::NameOfEmptyValue $value
 	 * @return JsonStringEnumMixedTestBuilder<__Has_child__, __Has_local__, __Has_parent__, __Has_root__, "OK">
 	 */
 	public function setSibling($value)

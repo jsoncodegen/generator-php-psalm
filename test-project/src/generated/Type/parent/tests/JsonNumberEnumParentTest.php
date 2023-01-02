@@ -10,140 +10,140 @@ final class JsonNumberEnumParentTest
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\parent\JsonNumberEnum
+	 * @var \JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue
 	 */
 	public $enum_;
 
 	/**
 	 * This is an enum.
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\parent\JsonNumberEnum
+	 * @var \JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue
 	 */
 	public $enumWithDescription;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Type\parent\JsonNumberEnum|null
+	 * @var \JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue|null
 	 */
 	public $enumOrNull;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Type\parent\JsonNumberEnum>
+	 * @var list<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue>
 	 */
 	public $arrayOfEnums;
 
 	/**
 	 * @readonly
-	 * @var list<list<\JCG\Test\generated\Type\parent\JsonNumberEnum>>
+	 * @var list<list<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue>>
 	 */
 	public $arrayOfArraysOfEnums;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Type\parent\JsonNumberEnum|null>
+	 * @var list<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue|null>
 	 */
 	public $arrayOfEnumsAndNulls;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Type\parent\JsonNumberEnum>|null
+	 * @var list<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue>|null
 	 */
 	public $arrayOfEnumsOrNull;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Type\parent\JsonNumberEnum|null>|null
+	 * @var list<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue|null>|null
 	 */
 	public $arrayOfEnumsAndNullsOrNull;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum>
+	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue>
 	 */
 	public $mapOfEnums;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum>>
+	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue>>
 	 */
 	public $mapOfMapsOfEnums;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum|null>
+	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue|null>
 	 */
 	public $mapOfNullsAndEnums;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue>|null
 	 */
 	public $mapOfEnumsOrNull;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum|null>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue|null>|null
 	 */
 	public $mapOfNullsAndEnumsOrNull;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum>>
+	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue>>
 	 */
 	public $arrayOfMapsOfEnums;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum>>|null
+	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue>>|null
 	 */
 	public $arrayOfMapsOfEnumsOrNull;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum>|null>
+	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue>|null>
 	 */
 	public $arrayOfNullsAndMapsOfEnums;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum|null>>
+	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue|null>>
 	 */
 	public $arrayOfMapsOfNullsAndEnums;
 
 	/**
 	 * @readonly
-	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum|null>|null>|null
+	 * @var list<\JCG\Test\generated\Util\JsonMap<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue|null>|null>|null
 	 */
 	public $arrayOfNullsAndMapsOfNullsAndEnumsOrNull;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\JsonNumberEnum>>
+	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue>>
 	 */
 	public $mapOfArraysOfEnums;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\JsonNumberEnum>>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue>>|null
 	 */
 	public $mapOfArraysOfEnumsOrNull;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\JsonNumberEnum>|null>
+	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue>|null>
 	 */
 	public $mapOfNullsAndArraysOfEnums;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\JsonNumberEnum|null>>
+	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue|null>>
 	 */
 	public $mapOfArraysOfNullsAndEnums;
 
 	/**
 	 * @readonly
-	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\JsonNumberEnum|null>|null>|null
+	 * @var \JCG\Test\generated\Util\JsonMap<list<\JCG\Test\generated\Type\parent\JsonNumberEnum::Name|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameWithDescription|\JCG\Test\generated\Type\parent\JsonNumberEnum::NameOfFractionValue|null>|null>|null
 	 */
 	public $mapOfNullsAndArraysOfNullsAndEnumsOrNull;
 
