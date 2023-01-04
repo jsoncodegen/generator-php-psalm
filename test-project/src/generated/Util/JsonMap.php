@@ -12,8 +12,6 @@ use stdClass;
 
 /**
  * @template T
- * @template-implements ArrayAccess<string, T>
- * @template-implements IteratorAggregate<string, T>
  */
 class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Countable, Serializable
 {
@@ -32,6 +30,7 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	
 	/**
 	 * @inheritDoc
+	 * @psalm-suppress InvalidAttribute
 	 */
 	#[\ReturnTypeWillChange]
 	public function jsonSerialize()
@@ -46,6 +45,7 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	/**
 	 * @param string $offset
 	 * @return bool
+	 * @psalm-suppress InvalidAttribute
 	 */
 	#[\ReturnTypeWillChange]
 	public function offsetExists($offset)
@@ -56,6 +56,7 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	/**
 	 * @param string $offset
 	 * @return T
+	 * @psalm-suppress InvalidAttribute
 	 */
 	#[\ReturnTypeWillChange]
 	public function offsetGet($offset)
@@ -66,6 +67,7 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	/**
 	 * @param string $offset
 	 * @param T $value
+	 * @psalm-suppress InvalidAttribute
 	 */
 	#[\ReturnTypeWillChange]
 	public function offsetSet($offset, $value)
@@ -75,6 +77,7 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	
 	/**
 	 * @param string $offset
+	 * @psalm-suppress InvalidAttribute
 	 */
 	#[\ReturnTypeWillChange]
 	public function offsetUnset($offset)
@@ -83,7 +86,8 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	}
 	
 	/**
-	 * @return ArrayIterator<string, T>
+	 * @return ArrayIterator
+	 * @psalm-suppress InvalidAttribute
 	 */
 	#[\ReturnTypeWillChange]
 	public function getIterator()
@@ -93,6 +97,7 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	
 	/**
 	 * @return int
+	 * @psalm-suppress InvalidAttribute
 	 */
 	#[\ReturnTypeWillChange]
 	public function count()
@@ -100,14 +105,22 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 		return count($this->data);
 	}
 	
+	/**
+	 * @return string|null
+	 * @psalm-suppress InvalidAttribute
+	 */
+	#[\ReturnTypeWillChange]
 	public function serialize()
 	{
 		return serialize($this->data);
 	}
 	
 	/**
-	 * @inheritDoc
+	 * @param string $data
+	 * @return void
+	 * @psalm-suppress InvalidAttribute
 	 */
+	#[\ReturnTypeWillChange]
 	public function unserialize($data)
 	{
 		/**
@@ -117,8 +130,10 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	}
 	
 	/**
-	 * @inheritDoc
+	 * @return string
+	 * @psalm-suppress InvalidAttribute
 	 */
+	#[\ReturnTypeWillChange]
 	public function __serialize()
 	{
 		return serialize($this->data);
@@ -127,7 +142,9 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	/**
 	 * @param string $data
 	 * @return void
+	 * @psalm-suppress InvalidAttribute
 	 */
+	#[\ReturnTypeWillChange]
 	public function __unserialize($data)
 	{
 		/**

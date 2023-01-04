@@ -74,6 +74,8 @@ MIT
 
 ## History
 
+1.0.4 Fix JsonMap for Psalm 5.4.0 with PHP 8.1.
+
 1.0.3 Fix enum type loss.
 
 1.0.2 Fix interface setter generics.
