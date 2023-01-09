@@ -30,19 +30,19 @@ final class AssertJsonNumberEnumValueSiblingTest
 		}
 		$o->enumValue = \JCG\Test\generated\Util\AssertUtil::assertExactValue(
 			\JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::Name,
-			$o->enumValue,
+			(isset($o->enumValue) ? $o->enumValue : null),
 			false,
 			$path . '->enumValue:\\JCG\\Test\\generated\\Type\\parent\\sibling\\JsonNumberEnum:Name'
 		);
 		$o->enumValueWithDescription = \JCG\Test\generated\Util\AssertUtil::assertExactValue(
 			\JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::Name,
-			$o->enumValueWithDescription,
+			(isset($o->enumValueWithDescription) ? $o->enumValueWithDescription : null),
 			false,
 			$path . '->enumValueWithDescription:\\JCG\\Test\\generated\\Type\\parent\\sibling\\JsonNumberEnum:Name'
 		);
 		$o->enumValueOrNull = \JCG\Test\generated\Util\AssertUtil::assertExactValue(
 			\JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::Name,
-			$o->enumValueOrNull,
+			(isset($o->enumValueOrNull) ? $o->enumValueOrNull : null),
 			true,
 			$path . '->enumValueOrNull:\\JCG\\Test\\generated\\Type\\parent\\sibling\\JsonNumberEnum:Name'
 		);
@@ -61,7 +61,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfEnumValues,
+			(isset($o->arrayOfEnumValues) ? $o->arrayOfEnumValues : null),
 			false,
 			$path . '->arrayOfEnumValues'
 		);
@@ -93,7 +93,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfArraysOfEnumValues,
+			(isset($o->arrayOfArraysOfEnumValues) ? $o->arrayOfArraysOfEnumValues : null),
 			false,
 			$path . '->arrayOfArraysOfEnumValues'
 		);
@@ -112,7 +112,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfEnumValuesAndNulls,
+			(isset($o->arrayOfEnumValuesAndNulls) ? $o->arrayOfEnumValuesAndNulls : null),
 			false,
 			$path . '->arrayOfEnumValuesAndNulls'
 		);
@@ -131,7 +131,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfEnumValuesOrNull,
+			(isset($o->arrayOfEnumValuesOrNull) ? $o->arrayOfEnumValuesOrNull : null),
 			true,
 			$path . '->arrayOfEnumValuesOrNull'
 		);
@@ -150,7 +150,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfEnumValuesAndNullsOrNull,
+			(isset($o->arrayOfEnumValuesAndNullsOrNull) ? $o->arrayOfEnumValuesAndNullsOrNull : null),
 			true,
 			$path . '->arrayOfEnumValuesAndNullsOrNull'
 		);
@@ -169,7 +169,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->mapOfEnumValues,
+			(isset($o->mapOfEnumValues) ? $o->mapOfEnumValues : null),
 			false,
 			$path . '->mapOfEnumValues'
 		);
@@ -201,7 +201,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->mapOfMapsOfEnumValues,
+			(isset($o->mapOfMapsOfEnumValues) ? $o->mapOfMapsOfEnumValues : null),
 			false,
 			$path . '->mapOfMapsOfEnumValues'
 		);
@@ -220,7 +220,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndEnumValues,
+			(isset($o->mapOfNullsAndEnumValues) ? $o->mapOfNullsAndEnumValues : null),
 			false,
 			$path . '->mapOfNullsAndEnumValues'
 		);
@@ -239,7 +239,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->mapOfEnumValuesOrNull,
+			(isset($o->mapOfEnumValuesOrNull) ? $o->mapOfEnumValuesOrNull : null),
 			true,
 			$path . '->mapOfEnumValuesOrNull'
 		);
@@ -258,7 +258,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndEnumValuesOrNull,
+			(isset($o->mapOfNullsAndEnumValuesOrNull) ? $o->mapOfNullsAndEnumValuesOrNull : null),
 			true,
 			$path . '->mapOfNullsAndEnumValuesOrNull'
 		);
@@ -290,7 +290,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfMapsOfEnumValues,
+			(isset($o->arrayOfMapsOfEnumValues) ? $o->arrayOfMapsOfEnumValues : null),
 			false,
 			$path . '->arrayOfMapsOfEnumValues'
 		);
@@ -322,7 +322,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfMapsOfEnumValuesOrNull,
+			(isset($o->arrayOfMapsOfEnumValuesOrNull) ? $o->arrayOfMapsOfEnumValuesOrNull : null),
 			true,
 			$path . '->arrayOfMapsOfEnumValuesOrNull'
 		);
@@ -354,7 +354,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfNullsAndMapsOfEnumValues,
+			(isset($o->arrayOfNullsAndMapsOfEnumValues) ? $o->arrayOfNullsAndMapsOfEnumValues : null),
 			false,
 			$path . '->arrayOfNullsAndMapsOfEnumValues'
 		);
@@ -386,7 +386,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfMapsOfNullsAndEnumValues,
+			(isset($o->arrayOfMapsOfNullsAndEnumValues) ? $o->arrayOfMapsOfNullsAndEnumValues : null),
 			false,
 			$path . '->arrayOfMapsOfNullsAndEnumValues'
 		);
@@ -418,7 +418,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfNullsAndMapsOfNullsAndEnumValuesOrNull,
+			(isset($o->arrayOfNullsAndMapsOfNullsAndEnumValuesOrNull) ? $o->arrayOfNullsAndMapsOfNullsAndEnumValuesOrNull : null),
 			true,
 			$path . '->arrayOfNullsAndMapsOfNullsAndEnumValuesOrNull'
 		);
@@ -450,7 +450,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->mapOfArraysOfEnumValues,
+			(isset($o->mapOfArraysOfEnumValues) ? $o->mapOfArraysOfEnumValues : null),
 			false,
 			$path . '->mapOfArraysOfEnumValues'
 		);
@@ -482,7 +482,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->mapOfArraysOfEnumValuesOrNull,
+			(isset($o->mapOfArraysOfEnumValuesOrNull) ? $o->mapOfArraysOfEnumValuesOrNull : null),
 			true,
 			$path . '->mapOfArraysOfEnumValuesOrNull'
 		);
@@ -514,7 +514,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndArraysOfEnumValues,
+			(isset($o->mapOfNullsAndArraysOfEnumValues) ? $o->mapOfNullsAndArraysOfEnumValues : null),
 			false,
 			$path . '->mapOfNullsAndArraysOfEnumValues'
 		);
@@ -546,7 +546,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->mapOfArraysOfNullsAndEnumValues,
+			(isset($o->mapOfArraysOfNullsAndEnumValues) ? $o->mapOfArraysOfNullsAndEnumValues : null),
 			false,
 			$path . '->mapOfArraysOfNullsAndEnumValues'
 		);
@@ -578,7 +578,7 @@ final class AssertJsonNumberEnumValueSiblingTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndArraysOfNullsAndEnumValuesOrNull,
+			(isset($o->mapOfNullsAndArraysOfNullsAndEnumValuesOrNull) ? $o->mapOfNullsAndArraysOfNullsAndEnumValuesOrNull : null),
 			true,
 			$path . '->mapOfNullsAndArraysOfNullsAndEnumValuesOrNull'
 		);

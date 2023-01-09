@@ -29,27 +29,27 @@ final class AssertJsonStringEnumMixedTest
 			);
 		}
 		$o->child = \JCG\Test\generated\Assert\parent\tests\child\AssertJsonStringEnum::assert(
-			$o->child,
+			(isset($o->child) ? $o->child : null),
 			false,
 			$path . '->child:\\JCG\\Test\\generated\\Type\\parent\\tests\\child\\JsonStringEnum'
 		);
 		$o->local = \JCG\Test\generated\Assert\parent\tests\AssertJsonStringEnum::assert(
-			$o->local,
+			(isset($o->local) ? $o->local : null),
 			false,
 			$path . '->local:\\JCG\\Test\\generated\\Type\\parent\\tests\\JsonStringEnum'
 		);
 		$o->parent = \JCG\Test\generated\Assert\parent\AssertJsonStringEnum::assert(
-			$o->parent,
+			(isset($o->parent) ? $o->parent : null),
 			false,
 			$path . '->parent:\\JCG\\Test\\generated\\Type\\parent\\JsonStringEnum'
 		);
 		$o->root = \JCG\Test\generated\Assert\AssertJsonStringEnum::assert(
-			$o->root,
+			(isset($o->root) ? $o->root : null),
 			false,
 			$path . '->root:\\JCG\\Test\\generated\\Type\\JsonStringEnum'
 		);
 		$o->sibling = \JCG\Test\generated\Assert\parent\sibling\AssertJsonStringEnum::assert(
-			$o->sibling,
+			(isset($o->sibling) ? $o->sibling : null),
 			false,
 			$path . '->sibling:\\JCG\\Test\\generated\\Type\\parent\\sibling\\JsonStringEnum'
 		);

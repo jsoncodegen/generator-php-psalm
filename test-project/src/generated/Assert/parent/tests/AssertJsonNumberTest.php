@@ -29,17 +29,17 @@ final class AssertJsonNumberTest
 			);
 		}
 		$o->count = \JCG\Test\generated\Util\AssertUtil::assertNumber(
-			$o->count,
+			(isset($o->count) ? $o->count : null),
 			false,
 			$path . '->count'
 		);
 		$o->countWithDescription = \JCG\Test\generated\Util\AssertUtil::assertNumber(
-			$o->countWithDescription,
+			(isset($o->countWithDescription) ? $o->countWithDescription : null),
 			false,
 			$path . '->countWithDescription'
 		);
 		$o->countOrNull = \JCG\Test\generated\Util\AssertUtil::assertNumber(
-			$o->countOrNull,
+			(isset($o->countOrNull) ? $o->countOrNull : null),
 			true,
 			$path . '->countOrNull'
 		);
@@ -57,7 +57,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->arrayOfCounts,
+			(isset($o->arrayOfCounts) ? $o->arrayOfCounts : null),
 			false,
 			$path . '->arrayOfCounts'
 		);
@@ -88,7 +88,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->arrayOfArraysOfCounts,
+			(isset($o->arrayOfArraysOfCounts) ? $o->arrayOfArraysOfCounts : null),
 			false,
 			$path . '->arrayOfArraysOfCounts'
 		);
@@ -106,7 +106,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->arrayOfCountsAndNulls,
+			(isset($o->arrayOfCountsAndNulls) ? $o->arrayOfCountsAndNulls : null),
 			false,
 			$path . '->arrayOfCountsAndNulls'
 		);
@@ -124,7 +124,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->arrayOfCountsOrNull,
+			(isset($o->arrayOfCountsOrNull) ? $o->arrayOfCountsOrNull : null),
 			true,
 			$path . '->arrayOfCountsOrNull'
 		);
@@ -142,7 +142,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->arrayOfCountsAndNullsOrNull,
+			(isset($o->arrayOfCountsAndNullsOrNull) ? $o->arrayOfCountsAndNullsOrNull : null),
 			true,
 			$path . '->arrayOfCountsAndNullsOrNull'
 		);
@@ -160,7 +160,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->mapOfCounts,
+			(isset($o->mapOfCounts) ? $o->mapOfCounts : null),
 			false,
 			$path . '->mapOfCounts'
 		);
@@ -191,7 +191,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->mapOfMapsOfCounts,
+			(isset($o->mapOfMapsOfCounts) ? $o->mapOfMapsOfCounts : null),
 			false,
 			$path . '->mapOfMapsOfCounts'
 		);
@@ -209,7 +209,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndCounts,
+			(isset($o->mapOfNullsAndCounts) ? $o->mapOfNullsAndCounts : null),
 			false,
 			$path . '->mapOfNullsAndCounts'
 		);
@@ -227,7 +227,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->mapOfCountsOrNull,
+			(isset($o->mapOfCountsOrNull) ? $o->mapOfCountsOrNull : null),
 			true,
 			$path . '->mapOfCountsOrNull'
 		);
@@ -245,7 +245,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndCountsOrNull,
+			(isset($o->mapOfNullsAndCountsOrNull) ? $o->mapOfNullsAndCountsOrNull : null),
 			true,
 			$path . '->mapOfNullsAndCountsOrNull'
 		);
@@ -276,7 +276,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->arrayOfMapsOfCounts,
+			(isset($o->arrayOfMapsOfCounts) ? $o->arrayOfMapsOfCounts : null),
 			false,
 			$path . '->arrayOfMapsOfCounts'
 		);
@@ -307,7 +307,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->arrayOfMapsOfCountsOrNull,
+			(isset($o->arrayOfMapsOfCountsOrNull) ? $o->arrayOfMapsOfCountsOrNull : null),
 			true,
 			$path . '->arrayOfMapsOfCountsOrNull'
 		);
@@ -338,7 +338,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->arrayOfNullsAndMapsOfCounts,
+			(isset($o->arrayOfNullsAndMapsOfCounts) ? $o->arrayOfNullsAndMapsOfCounts : null),
 			false,
 			$path . '->arrayOfNullsAndMapsOfCounts'
 		);
@@ -369,7 +369,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->arrayOfMapsOfNullsAndCounts,
+			(isset($o->arrayOfMapsOfNullsAndCounts) ? $o->arrayOfMapsOfNullsAndCounts : null),
 			false,
 			$path . '->arrayOfMapsOfNullsAndCounts'
 		);
@@ -400,7 +400,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->arrayOfNullsAndMapsOfNullsAndCountsOrNull,
+			(isset($o->arrayOfNullsAndMapsOfNullsAndCountsOrNull) ? $o->arrayOfNullsAndMapsOfNullsAndCountsOrNull : null),
 			true,
 			$path . '->arrayOfNullsAndMapsOfNullsAndCountsOrNull'
 		);
@@ -431,7 +431,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->mapOfArraysOfCounts,
+			(isset($o->mapOfArraysOfCounts) ? $o->mapOfArraysOfCounts : null),
 			false,
 			$path . '->mapOfArraysOfCounts'
 		);
@@ -462,7 +462,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->mapOfArraysOfCountsOrNull,
+			(isset($o->mapOfArraysOfCountsOrNull) ? $o->mapOfArraysOfCountsOrNull : null),
 			true,
 			$path . '->mapOfArraysOfCountsOrNull'
 		);
@@ -493,7 +493,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndArraysOfCounts,
+			(isset($o->mapOfNullsAndArraysOfCounts) ? $o->mapOfNullsAndArraysOfCounts : null),
 			false,
 			$path . '->mapOfNullsAndArraysOfCounts'
 		);
@@ -524,7 +524,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->mapOfArraysOfNullsAndCounts,
+			(isset($o->mapOfArraysOfNullsAndCounts) ? $o->mapOfArraysOfNullsAndCounts : null),
 			false,
 			$path . '->mapOfArraysOfNullsAndCounts'
 		);
@@ -555,7 +555,7 @@ final class AssertJsonNumberTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndArraysOfNullsAndCountsOrNull,
+			(isset($o->mapOfNullsAndArraysOfNullsAndCountsOrNull) ? $o->mapOfNullsAndArraysOfNullsAndCountsOrNull : null),
 			true,
 			$path . '->mapOfNullsAndArraysOfNullsAndCountsOrNull'
 		);

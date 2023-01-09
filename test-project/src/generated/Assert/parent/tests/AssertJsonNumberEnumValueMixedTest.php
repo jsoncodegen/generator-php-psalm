@@ -30,31 +30,31 @@ final class AssertJsonNumberEnumValueMixedTest
 		}
 		$o->child = \JCG\Test\generated\Util\AssertUtil::assertExactValue(
 			\JCG\Test\generated\Type\parent\tests\child\JsonNumberEnum::Name,
-			$o->child,
+			(isset($o->child) ? $o->child : null),
 			false,
 			$path . '->child:\\JCG\\Test\\generated\\Type\\parent\\tests\\child\\JsonNumberEnum:Name'
 		);
 		$o->local = \JCG\Test\generated\Util\AssertUtil::assertExactValue(
 			\JCG\Test\generated\Type\parent\tests\JsonNumberEnum::Name,
-			$o->local,
+			(isset($o->local) ? $o->local : null),
 			false,
 			$path . '->local:\\JCG\\Test\\generated\\Type\\parent\\tests\\JsonNumberEnum:Name'
 		);
 		$o->parent = \JCG\Test\generated\Util\AssertUtil::assertExactValue(
 			\JCG\Test\generated\Type\parent\JsonNumberEnum::Name,
-			$o->parent,
+			(isset($o->parent) ? $o->parent : null),
 			false,
 			$path . '->parent:\\JCG\\Test\\generated\\Type\\parent\\JsonNumberEnum:Name'
 		);
 		$o->root = \JCG\Test\generated\Util\AssertUtil::assertExactValue(
 			\JCG\Test\generated\Type\JsonNumberEnum::Name,
-			$o->root,
+			(isset($o->root) ? $o->root : null),
 			false,
 			$path . '->root:\\JCG\\Test\\generated\\Type\\JsonNumberEnum:Name'
 		);
 		$o->sibling = \JCG\Test\generated\Util\AssertUtil::assertExactValue(
 			\JCG\Test\generated\Type\parent\sibling\JsonNumberEnum::Name,
-			$o->sibling,
+			(isset($o->sibling) ? $o->sibling : null),
 			false,
 			$path . '->sibling:\\JCG\\Test\\generated\\Type\\parent\\sibling\\JsonNumberEnum:Name'
 		);

@@ -29,17 +29,17 @@ final class AssertJsonInterfaceSiblingTest
 			);
 		}
 		$o->object_ = \JCG\Test\generated\Assert\parent\sibling\AssertJsonInterface::assert(
-			$o->object_,
+			(isset($o->object_) ? $o->object_ : null),
 			false,
 			$path . '->object_'
 		);
 		$o->objectWithDescription = \JCG\Test\generated\Assert\parent\sibling\AssertJsonInterface::assert(
-			$o->objectWithDescription,
+			(isset($o->objectWithDescription) ? $o->objectWithDescription : null),
 			false,
 			$path . '->objectWithDescription'
 		);
 		$o->objectOrNull = \JCG\Test\generated\Assert\parent\sibling\AssertJsonInterface::assert(
-			$o->objectOrNull,
+			(isset($o->objectOrNull) ? $o->objectOrNull : null),
 			true,
 			$path . '->objectOrNull'
 		);
@@ -57,7 +57,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfObjects,
+			(isset($o->arrayOfObjects) ? $o->arrayOfObjects : null),
 			false,
 			$path . '->arrayOfObjects'
 		);
@@ -88,7 +88,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfArraysOfObjects,
+			(isset($o->arrayOfArraysOfObjects) ? $o->arrayOfArraysOfObjects : null),
 			false,
 			$path . '->arrayOfArraysOfObjects'
 		);
@@ -106,7 +106,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfObjectsAndNulls,
+			(isset($o->arrayOfObjectsAndNulls) ? $o->arrayOfObjectsAndNulls : null),
 			false,
 			$path . '->arrayOfObjectsAndNulls'
 		);
@@ -124,7 +124,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfObjectsOrNull,
+			(isset($o->arrayOfObjectsOrNull) ? $o->arrayOfObjectsOrNull : null),
 			true,
 			$path . '->arrayOfObjectsOrNull'
 		);
@@ -142,7 +142,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfObjectsAndNullsOrNull,
+			(isset($o->arrayOfObjectsAndNullsOrNull) ? $o->arrayOfObjectsAndNullsOrNull : null),
 			true,
 			$path . '->arrayOfObjectsAndNullsOrNull'
 		);
@@ -160,7 +160,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->mapOfObjects,
+			(isset($o->mapOfObjects) ? $o->mapOfObjects : null),
 			false,
 			$path . '->mapOfObjects'
 		);
@@ -191,7 +191,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->mapOfMapsOfObjects,
+			(isset($o->mapOfMapsOfObjects) ? $o->mapOfMapsOfObjects : null),
 			false,
 			$path . '->mapOfMapsOfObjects'
 		);
@@ -209,7 +209,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndObjects,
+			(isset($o->mapOfNullsAndObjects) ? $o->mapOfNullsAndObjects : null),
 			false,
 			$path . '->mapOfNullsAndObjects'
 		);
@@ -227,7 +227,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->mapOfObjectsOrNull,
+			(isset($o->mapOfObjectsOrNull) ? $o->mapOfObjectsOrNull : null),
 			true,
 			$path . '->mapOfObjectsOrNull'
 		);
@@ -245,7 +245,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndObjectsOrNull,
+			(isset($o->mapOfNullsAndObjectsOrNull) ? $o->mapOfNullsAndObjectsOrNull : null),
 			true,
 			$path . '->mapOfNullsAndObjectsOrNull'
 		);
@@ -276,7 +276,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfMapsOfObjects,
+			(isset($o->arrayOfMapsOfObjects) ? $o->arrayOfMapsOfObjects : null),
 			false,
 			$path . '->arrayOfMapsOfObjects'
 		);
@@ -307,7 +307,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfMapsOfObjectsOrNull,
+			(isset($o->arrayOfMapsOfObjectsOrNull) ? $o->arrayOfMapsOfObjectsOrNull : null),
 			true,
 			$path . '->arrayOfMapsOfObjectsOrNull'
 		);
@@ -338,7 +338,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfNullsAndMapsOfObjects,
+			(isset($o->arrayOfNullsAndMapsOfObjects) ? $o->arrayOfNullsAndMapsOfObjects : null),
 			false,
 			$path . '->arrayOfNullsAndMapsOfObjects'
 		);
@@ -369,7 +369,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfMapsOfNullsAndObjects,
+			(isset($o->arrayOfMapsOfNullsAndObjects) ? $o->arrayOfMapsOfNullsAndObjects : null),
 			false,
 			$path . '->arrayOfMapsOfNullsAndObjects'
 		);
@@ -400,7 +400,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->arrayOfNullsAndMapsOfNullsAndObjectsOrNull,
+			(isset($o->arrayOfNullsAndMapsOfNullsAndObjectsOrNull) ? $o->arrayOfNullsAndMapsOfNullsAndObjectsOrNull : null),
 			true,
 			$path . '->arrayOfNullsAndMapsOfNullsAndObjectsOrNull'
 		);
@@ -431,7 +431,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->mapOfArraysOfObjects,
+			(isset($o->mapOfArraysOfObjects) ? $o->mapOfArraysOfObjects : null),
 			false,
 			$path . '->mapOfArraysOfObjects'
 		);
@@ -462,7 +462,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->mapOfArraysOfObjectsOrNull,
+			(isset($o->mapOfArraysOfObjectsOrNull) ? $o->mapOfArraysOfObjectsOrNull : null),
 			true,
 			$path . '->mapOfArraysOfObjectsOrNull'
 		);
@@ -493,7 +493,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndArraysOfObjects,
+			(isset($o->mapOfNullsAndArraysOfObjects) ? $o->mapOfNullsAndArraysOfObjects : null),
 			false,
 			$path . '->mapOfNullsAndArraysOfObjects'
 		);
@@ -524,7 +524,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->mapOfArraysOfNullsAndObjects,
+			(isset($o->mapOfArraysOfNullsAndObjects) ? $o->mapOfArraysOfNullsAndObjects : null),
 			false,
 			$path . '->mapOfArraysOfNullsAndObjects'
 		);
@@ -555,7 +555,7 @@ final class AssertJsonInterfaceSiblingTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndArraysOfNullsAndObjectsOrNull,
+			(isset($o->mapOfNullsAndArraysOfNullsAndObjectsOrNull) ? $o->mapOfNullsAndArraysOfNullsAndObjectsOrNull : null),
 			true,
 			$path . '->mapOfNullsAndArraysOfNullsAndObjectsOrNull'
 		);

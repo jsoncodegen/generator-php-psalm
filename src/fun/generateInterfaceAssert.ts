@@ -65,7 +65,9 @@ export async function generateInterfaceAssert(
 
 	function wrap(fieldType: TFieldType, field: IInterfaceField): string {
 		const fieldAccess =
-			field.fieldType === fieldType ? `$o->${field.name}` : `$value`
+			field.fieldType === fieldType
+				? `(isset($o->${field.name}) ? $o->${field.name} : null)`
+				: `$value`
 		const resultHandling =
 			field.fieldType === fieldType ? `$o->${field.name} = ` : `return `
 		let assertFunName = ''

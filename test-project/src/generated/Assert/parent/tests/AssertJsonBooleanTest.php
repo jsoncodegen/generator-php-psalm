@@ -29,17 +29,17 @@ final class AssertJsonBooleanTest
 			);
 		}
 		$o->flag = \JCG\Test\generated\Util\AssertUtil::assertBoolean(
-			$o->flag,
+			(isset($o->flag) ? $o->flag : null),
 			false,
 			$path . '->flag'
 		);
 		$o->flagWithDescription = \JCG\Test\generated\Util\AssertUtil::assertBoolean(
-			$o->flagWithDescription,
+			(isset($o->flagWithDescription) ? $o->flagWithDescription : null),
 			false,
 			$path . '->flagWithDescription'
 		);
 		$o->flagOrNull = \JCG\Test\generated\Util\AssertUtil::assertBoolean(
-			$o->flagOrNull,
+			(isset($o->flagOrNull) ? $o->flagOrNull : null),
 			true,
 			$path . '->flagOrNull'
 		);
@@ -57,7 +57,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->arrayOfFlags,
+			(isset($o->arrayOfFlags) ? $o->arrayOfFlags : null),
 			false,
 			$path . '->arrayOfFlags'
 		);
@@ -88,7 +88,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->arrayOfArraysOfFlags,
+			(isset($o->arrayOfArraysOfFlags) ? $o->arrayOfArraysOfFlags : null),
 			false,
 			$path . '->arrayOfArraysOfFlags'
 		);
@@ -106,7 +106,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->arrayOfFlagsAndNulls,
+			(isset($o->arrayOfFlagsAndNulls) ? $o->arrayOfFlagsAndNulls : null),
 			false,
 			$path . '->arrayOfFlagsAndNulls'
 		);
@@ -124,7 +124,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->arrayOfFlagsOrNull,
+			(isset($o->arrayOfFlagsOrNull) ? $o->arrayOfFlagsOrNull : null),
 			true,
 			$path . '->arrayOfFlagsOrNull'
 		);
@@ -142,7 +142,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->arrayOfFlagsAndNullsOrNull,
+			(isset($o->arrayOfFlagsAndNullsOrNull) ? $o->arrayOfFlagsAndNullsOrNull : null),
 			true,
 			$path . '->arrayOfFlagsAndNullsOrNull'
 		);
@@ -160,7 +160,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->mapOfFlags,
+			(isset($o->mapOfFlags) ? $o->mapOfFlags : null),
 			false,
 			$path . '->mapOfFlags'
 		);
@@ -191,7 +191,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->mapOfMapsOfFlags,
+			(isset($o->mapOfMapsOfFlags) ? $o->mapOfMapsOfFlags : null),
 			false,
 			$path . '->mapOfMapsOfFlags'
 		);
@@ -209,7 +209,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndFlags,
+			(isset($o->mapOfNullsAndFlags) ? $o->mapOfNullsAndFlags : null),
 			false,
 			$path . '->mapOfNullsAndFlags'
 		);
@@ -227,7 +227,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->mapOfFlagsOrNull,
+			(isset($o->mapOfFlagsOrNull) ? $o->mapOfFlagsOrNull : null),
 			true,
 			$path . '->mapOfFlagsOrNull'
 		);
@@ -245,7 +245,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndFlagsOrNull,
+			(isset($o->mapOfNullsAndFlagsOrNull) ? $o->mapOfNullsAndFlagsOrNull : null),
 			true,
 			$path . '->mapOfNullsAndFlagsOrNull'
 		);
@@ -276,7 +276,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->arrayOfMapsOfFlags,
+			(isset($o->arrayOfMapsOfFlags) ? $o->arrayOfMapsOfFlags : null),
 			false,
 			$path . '->arrayOfMapsOfFlags'
 		);
@@ -307,7 +307,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->arrayOfMapsOfFlagsOrNull,
+			(isset($o->arrayOfMapsOfFlagsOrNull) ? $o->arrayOfMapsOfFlagsOrNull : null),
 			true,
 			$path . '->arrayOfMapsOfFlagsOrNull'
 		);
@@ -338,7 +338,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->arrayOfNullsAndMapsOfFlags,
+			(isset($o->arrayOfNullsAndMapsOfFlags) ? $o->arrayOfNullsAndMapsOfFlags : null),
 			false,
 			$path . '->arrayOfNullsAndMapsOfFlags'
 		);
@@ -369,7 +369,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->arrayOfMapsOfNullsAndFlags,
+			(isset($o->arrayOfMapsOfNullsAndFlags) ? $o->arrayOfMapsOfNullsAndFlags : null),
 			false,
 			$path . '->arrayOfMapsOfNullsAndFlags'
 		);
@@ -400,7 +400,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->arrayOfNullsAndMapsOfNullsAndFlagsOrNull,
+			(isset($o->arrayOfNullsAndMapsOfNullsAndFlagsOrNull) ? $o->arrayOfNullsAndMapsOfNullsAndFlagsOrNull : null),
 			true,
 			$path . '->arrayOfNullsAndMapsOfNullsAndFlagsOrNull'
 		);
@@ -431,7 +431,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->mapOfArraysOfFlags,
+			(isset($o->mapOfArraysOfFlags) ? $o->mapOfArraysOfFlags : null),
 			false,
 			$path . '->mapOfArraysOfFlags'
 		);
@@ -462,7 +462,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->mapOfArraysOfFlagsOrNull,
+			(isset($o->mapOfArraysOfFlagsOrNull) ? $o->mapOfArraysOfFlagsOrNull : null),
 			true,
 			$path . '->mapOfArraysOfFlagsOrNull'
 		);
@@ -493,7 +493,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndArraysOfFlags,
+			(isset($o->mapOfNullsAndArraysOfFlags) ? $o->mapOfNullsAndArraysOfFlags : null),
 			false,
 			$path . '->mapOfNullsAndArraysOfFlags'
 		);
@@ -524,7 +524,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->mapOfArraysOfNullsAndFlags,
+			(isset($o->mapOfArraysOfNullsAndFlags) ? $o->mapOfArraysOfNullsAndFlags : null),
 			false,
 			$path . '->mapOfArraysOfNullsAndFlags'
 		);
@@ -555,7 +555,7 @@ final class AssertJsonBooleanTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndArraysOfNullsAndFlagsOrNull,
+			(isset($o->mapOfNullsAndArraysOfNullsAndFlagsOrNull) ? $o->mapOfNullsAndArraysOfNullsAndFlagsOrNull : null),
 			true,
 			$path . '->mapOfNullsAndArraysOfNullsAndFlagsOrNull'
 		);

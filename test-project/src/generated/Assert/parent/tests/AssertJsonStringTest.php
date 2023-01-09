@@ -29,17 +29,17 @@ final class AssertJsonStringTest
 			);
 		}
 		$o->name = \JCG\Test\generated\Util\AssertUtil::assertString(
-			$o->name,
+			(isset($o->name) ? $o->name : null),
 			false,
 			$path . '->name'
 		);
 		$o->nameWithDescription = \JCG\Test\generated\Util\AssertUtil::assertString(
-			$o->nameWithDescription,
+			(isset($o->nameWithDescription) ? $o->nameWithDescription : null),
 			false,
 			$path . '->nameWithDescription'
 		);
 		$o->nameOrNull = \JCG\Test\generated\Util\AssertUtil::assertString(
-			$o->nameOrNull,
+			(isset($o->nameOrNull) ? $o->nameOrNull : null),
 			true,
 			$path . '->nameOrNull'
 		);
@@ -57,7 +57,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->arrayOfNames,
+			(isset($o->arrayOfNames) ? $o->arrayOfNames : null),
 			false,
 			$path . '->arrayOfNames'
 		);
@@ -88,7 +88,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->arrayOfArraysOfNames,
+			(isset($o->arrayOfArraysOfNames) ? $o->arrayOfArraysOfNames : null),
 			false,
 			$path . '->arrayOfArraysOfNames'
 		);
@@ -106,7 +106,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->arrayOfNamesAndNulls,
+			(isset($o->arrayOfNamesAndNulls) ? $o->arrayOfNamesAndNulls : null),
 			false,
 			$path . '->arrayOfNamesAndNulls'
 		);
@@ -124,7 +124,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->arrayOfNamesOrNull,
+			(isset($o->arrayOfNamesOrNull) ? $o->arrayOfNamesOrNull : null),
 			true,
 			$path . '->arrayOfNamesOrNull'
 		);
@@ -142,7 +142,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->arrayOfNamesAndNullsOrNull,
+			(isset($o->arrayOfNamesAndNullsOrNull) ? $o->arrayOfNamesAndNullsOrNull : null),
 			true,
 			$path . '->arrayOfNamesAndNullsOrNull'
 		);
@@ -160,7 +160,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->mapOfNames,
+			(isset($o->mapOfNames) ? $o->mapOfNames : null),
 			false,
 			$path . '->mapOfNames'
 		);
@@ -191,7 +191,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->mapOfMapsOfNames,
+			(isset($o->mapOfMapsOfNames) ? $o->mapOfMapsOfNames : null),
 			false,
 			$path . '->mapOfMapsOfNames'
 		);
@@ -209,7 +209,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndNames,
+			(isset($o->mapOfNullsAndNames) ? $o->mapOfNullsAndNames : null),
 			false,
 			$path . '->mapOfNullsAndNames'
 		);
@@ -227,7 +227,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->mapOfNamesOrNull,
+			(isset($o->mapOfNamesOrNull) ? $o->mapOfNamesOrNull : null),
 			true,
 			$path . '->mapOfNamesOrNull'
 		);
@@ -245,7 +245,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndNamesOrNull,
+			(isset($o->mapOfNullsAndNamesOrNull) ? $o->mapOfNullsAndNamesOrNull : null),
 			true,
 			$path . '->mapOfNullsAndNamesOrNull'
 		);
@@ -276,7 +276,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->arrayOfMapsOfNames,
+			(isset($o->arrayOfMapsOfNames) ? $o->arrayOfMapsOfNames : null),
 			false,
 			$path . '->arrayOfMapsOfNames'
 		);
@@ -307,7 +307,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->arrayOfMapsOfNamesOrNull,
+			(isset($o->arrayOfMapsOfNamesOrNull) ? $o->arrayOfMapsOfNamesOrNull : null),
 			true,
 			$path . '->arrayOfMapsOfNamesOrNull'
 		);
@@ -338,7 +338,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->arrayOfNullsAndMapsOfNames,
+			(isset($o->arrayOfNullsAndMapsOfNames) ? $o->arrayOfNullsAndMapsOfNames : null),
 			false,
 			$path . '->arrayOfNullsAndMapsOfNames'
 		);
@@ -369,7 +369,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->arrayOfMapsOfNullsAndNames,
+			(isset($o->arrayOfMapsOfNullsAndNames) ? $o->arrayOfMapsOfNullsAndNames : null),
 			false,
 			$path . '->arrayOfMapsOfNullsAndNames'
 		);
@@ -400,7 +400,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->arrayOfNullsAndMapsOfNullsAndNamesOrNull,
+			(isset($o->arrayOfNullsAndMapsOfNullsAndNamesOrNull) ? $o->arrayOfNullsAndMapsOfNullsAndNamesOrNull : null),
 			true,
 			$path . '->arrayOfNullsAndMapsOfNullsAndNamesOrNull'
 		);
@@ -431,7 +431,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->mapOfArraysOfNames,
+			(isset($o->mapOfArraysOfNames) ? $o->mapOfArraysOfNames : null),
 			false,
 			$path . '->mapOfArraysOfNames'
 		);
@@ -462,7 +462,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->mapOfArraysOfNamesOrNull,
+			(isset($o->mapOfArraysOfNamesOrNull) ? $o->mapOfArraysOfNamesOrNull : null),
 			true,
 			$path . '->mapOfArraysOfNamesOrNull'
 		);
@@ -493,7 +493,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndArraysOfNames,
+			(isset($o->mapOfNullsAndArraysOfNames) ? $o->mapOfNullsAndArraysOfNames : null),
 			false,
 			$path . '->mapOfNullsAndArraysOfNames'
 		);
@@ -524,7 +524,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->mapOfArraysOfNullsAndNames,
+			(isset($o->mapOfArraysOfNullsAndNames) ? $o->mapOfArraysOfNullsAndNames : null),
 			false,
 			$path . '->mapOfArraysOfNullsAndNames'
 		);
@@ -555,7 +555,7 @@ final class AssertJsonStringTest
 					$path
 				);
 			},
-			$o->mapOfNullsAndArraysOfNullsAndNamesOrNull,
+			(isset($o->mapOfNullsAndArraysOfNullsAndNamesOrNull) ? $o->mapOfNullsAndArraysOfNullsAndNamesOrNull : null),
 			true,
 			$path . '->mapOfNullsAndArraysOfNullsAndNamesOrNull'
 		);

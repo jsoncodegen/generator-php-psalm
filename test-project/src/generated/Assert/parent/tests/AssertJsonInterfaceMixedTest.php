@@ -29,27 +29,27 @@ final class AssertJsonInterfaceMixedTest
 			);
 		}
 		$o->child = \JCG\Test\generated\Assert\parent\tests\child\AssertJsonInterface::assert(
-			$o->child,
+			(isset($o->child) ? $o->child : null),
 			false,
 			$path . '->child'
 		);
 		$o->local = \JCG\Test\generated\Assert\parent\tests\AssertJsonInterface::assert(
-			$o->local,
+			(isset($o->local) ? $o->local : null),
 			false,
 			$path . '->local'
 		);
 		$o->parent = \JCG\Test\generated\Assert\parent\AssertJsonInterface::assert(
-			$o->parent,
+			(isset($o->parent) ? $o->parent : null),
 			false,
 			$path . '->parent'
 		);
 		$o->root = \JCG\Test\generated\Assert\AssertJsonInterface::assert(
-			$o->root,
+			(isset($o->root) ? $o->root : null),
 			false,
 			$path . '->root'
 		);
 		$o->sibling = \JCG\Test\generated\Assert\parent\sibling\AssertJsonInterface::assert(
-			$o->sibling,
+			(isset($o->sibling) ? $o->sibling : null),
 			false,
 			$path . '->sibling'
 		);
