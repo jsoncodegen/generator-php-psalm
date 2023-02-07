@@ -28,6 +28,7 @@ final class AssertJsonStringEnumValueMixedTest
 				"Expected \\JCG\\Test\\generated\\Type\\parent\\tests\\JsonStringEnumValueMixedTest, got $type (at $path)"
 			);
 		}
+		\JCG\Test\generated\Util\AssertUtil::assertFieldsIn($o, ["child","local","parent","root","sibling"], $path);
 		$o->child = \JCG\Test\generated\Util\AssertUtil::assertExactValue(
 			\JCG\Test\generated\Type\parent\tests\child\JsonStringEnum::Name,
 			(isset($o->child) ? $o->child : null),

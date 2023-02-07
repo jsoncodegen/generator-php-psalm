@@ -40,6 +40,16 @@ export async function generateInterfaceAssert(
 			name,
 		),
 	)
+	const extraFieldsCheck = join(
+		assertUtilClassPath,
+		'::assertFieldsIn(',
+		joinWith(', ')(
+			'$o',
+			JSON.stringify(fields.map((field) => field.name)),
+			'$path',
+		),
+		');',
+	)
 	const assertions = fields.map((field) => wrap(field.fieldType, field))
 	const comment = indent(
 		makeComment(
@@ -57,6 +67,7 @@ export async function generateInterfaceAssert(
 		content: templateOfAssertInterface({
 			interfaceName: name,
 			interfaceAlias,
+			extraFieldsCheck,
 			assertions: joinArrayWith(`\n`)(assertions),
 			comment,
 			namespace,

@@ -28,6 +28,7 @@ final class AssertJsonInterfaceMixedTest
 				"Expected \\JCG\\Test\\generated\\Type\\parent\\tests\\JsonInterfaceMixedTest, got $type (at $path)"
 			);
 		}
+		\JCG\Test\generated\Util\AssertUtil::assertFieldsIn($o, ["child","local","parent","root","sibling"], $path);
 		$o->child = \JCG\Test\generated\Assert\parent\tests\child\AssertJsonInterface::assert(
 			(isset($o->child) ? $o->child : null),
 			false,

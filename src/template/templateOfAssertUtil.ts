@@ -300,6 +300,24 @@ class AssertUtil
 		$result = $value;
 		return new JsonMap($result);
 	}
+	
+	/**
+	 * @param mixed $obj
+	 * @param list<string> $expected
+	 * @param ?string $path
+	 * @return void
+	 */
+	public static function assertFieldsIn($obj, $expected, $path = '') {
+		/**
+		 * @var mixed $key
+		 * @var mixed $value
+		 */
+		foreach ($obj as $key => $value) {
+			if (!in_array($key, $expected)) {
+				throw new \\Exception("Unexpected field $key (at $path)");
+			}
+		}
+	}
 }
 `
 }

@@ -28,6 +28,7 @@ final class AssertJsonInterface
 				"Expected \\JCG\\Test\\generated\\Type\\parent\\tests\\child\\JsonInterface, got $type (at $path)"
 			);
 		}
+		\JCG\Test\generated\Util\AssertUtil::assertFieldsIn($o, [], $path);
 
 		/** @var \JCG\Test\generated\Type\parent\tests\child\JsonInterface $result */
 		$result = $o;

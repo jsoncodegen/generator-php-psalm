@@ -1,12 +1,14 @@
 import { indent } from '../fun/indent'
 
 export function templateOfAssertInterface({
+	extraFieldsCheck,
 	assertions,
 	interfaceName,
 	interfaceAlias,
 	comment,
 	namespace,
 }: {
+	extraFieldsCheck: string
 	assertions: string
 	interfaceName: string
 	interfaceAlias: string
@@ -43,6 +45,7 @@ ${comment}
 				"Expected ${interfaceAlias.replace(/\\/g, '\\\\')}, got $type (at $path)"
 			);
 		}
+${indent(indent(extraFieldsCheck))}
 ${indent(indent(assertions))}
 		/** @var ${interfaceAlias} $result */
 		$result = $o;

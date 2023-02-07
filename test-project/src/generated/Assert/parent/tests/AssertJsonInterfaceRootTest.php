@@ -28,6 +28,7 @@ final class AssertJsonInterfaceRootTest
 				"Expected \\JCG\\Test\\generated\\Type\\parent\\tests\\JsonInterfaceRootTest, got $type (at $path)"
 			);
 		}
+		\JCG\Test\generated\Util\AssertUtil::assertFieldsIn($o, ["object_","objectWithDescription","objectOrNull","arrayOfObjects","arrayOfArraysOfObjects","arrayOfObjectsAndNulls","arrayOfObjectsOrNull","arrayOfObjectsAndNullsOrNull","mapOfObjects","mapOfMapsOfObjects","mapOfNullsAndObjects","mapOfObjectsOrNull","mapOfNullsAndObjectsOrNull","arrayOfMapsOfObjects","arrayOfMapsOfObjectsOrNull","arrayOfNullsAndMapsOfObjects","arrayOfMapsOfNullsAndObjects","arrayOfNullsAndMapsOfNullsAndObjectsOrNull","mapOfArraysOfObjects","mapOfArraysOfObjectsOrNull","mapOfNullsAndArraysOfObjects","mapOfArraysOfNullsAndObjects","mapOfNullsAndArraysOfNullsAndObjectsOrNull"], $path);
 		$o->object_ = \JCG\Test\generated\Assert\AssertJsonInterface::assert(
 			(isset($o->object_) ? $o->object_ : null),
 			false,

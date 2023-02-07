@@ -28,6 +28,7 @@ final class AssertJsonBooleanTest
 				"Expected \\JCG\\Test\\generated\\Type\\parent\\tests\\JsonBooleanTest, got $type (at $path)"
 			);
 		}
+		\JCG\Test\generated\Util\AssertUtil::assertFieldsIn($o, ["flag","flagWithDescription","flagOrNull","arrayOfFlags","arrayOfArraysOfFlags","arrayOfFlagsAndNulls","arrayOfFlagsOrNull","arrayOfFlagsAndNullsOrNull","mapOfFlags","mapOfMapsOfFlags","mapOfNullsAndFlags","mapOfFlagsOrNull","mapOfNullsAndFlagsOrNull","arrayOfMapsOfFlags","arrayOfMapsOfFlagsOrNull","arrayOfNullsAndMapsOfFlags","arrayOfMapsOfNullsAndFlags","arrayOfNullsAndMapsOfNullsAndFlagsOrNull","mapOfArraysOfFlags","mapOfArraysOfFlagsOrNull","mapOfNullsAndArraysOfFlags","mapOfArraysOfNullsAndFlags","mapOfNullsAndArraysOfNullsAndFlagsOrNull"], $path);
 		$o->flag = \JCG\Test\generated\Util\AssertUtil::assertBoolean(
 			(isset($o->flag) ? $o->flag : null),
 			false,

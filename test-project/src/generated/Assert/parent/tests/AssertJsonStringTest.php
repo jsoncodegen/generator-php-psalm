@@ -28,6 +28,7 @@ final class AssertJsonStringTest
 				"Expected \\JCG\\Test\\generated\\Type\\parent\\tests\\JsonStringTest, got $type (at $path)"
 			);
 		}
+		\JCG\Test\generated\Util\AssertUtil::assertFieldsIn($o, ["name","nameWithDescription","nameOrNull","arrayOfNames","arrayOfArraysOfNames","arrayOfNamesAndNulls","arrayOfNamesOrNull","arrayOfNamesAndNullsOrNull","mapOfNames","mapOfMapsOfNames","mapOfNullsAndNames","mapOfNamesOrNull","mapOfNullsAndNamesOrNull","arrayOfMapsOfNames","arrayOfMapsOfNamesOrNull","arrayOfNullsAndMapsOfNames","arrayOfMapsOfNullsAndNames","arrayOfNullsAndMapsOfNullsAndNamesOrNull","mapOfArraysOfNames","mapOfArraysOfNamesOrNull","mapOfNullsAndArraysOfNames","mapOfArraysOfNullsAndNames","mapOfNullsAndArraysOfNullsAndNamesOrNull"], $path);
 		$o->name = \JCG\Test\generated\Util\AssertUtil::assertString(
 			(isset($o->name) ? $o->name : null),
 			false,

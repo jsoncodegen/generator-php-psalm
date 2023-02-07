@@ -28,6 +28,7 @@ final class AssertJsonNumberTest
 				"Expected \\JCG\\Test\\generated\\Type\\parent\\tests\\JsonNumberTest, got $type (at $path)"
 			);
 		}
+		\JCG\Test\generated\Util\AssertUtil::assertFieldsIn($o, ["count","countWithDescription","countOrNull","arrayOfCounts","arrayOfArraysOfCounts","arrayOfCountsAndNulls","arrayOfCountsOrNull","arrayOfCountsAndNullsOrNull","mapOfCounts","mapOfMapsOfCounts","mapOfNullsAndCounts","mapOfCountsOrNull","mapOfNullsAndCountsOrNull","arrayOfMapsOfCounts","arrayOfMapsOfCountsOrNull","arrayOfNullsAndMapsOfCounts","arrayOfMapsOfNullsAndCounts","arrayOfNullsAndMapsOfNullsAndCountsOrNull","mapOfArraysOfCounts","mapOfArraysOfCountsOrNull","mapOfNullsAndArraysOfCounts","mapOfArraysOfNullsAndCounts","mapOfNullsAndArraysOfNullsAndCountsOrNull"], $path);
 		$o->count = \JCG\Test\generated\Util\AssertUtil::assertNumber(
 			(isset($o->count) ? $o->count : null),
 			false,

@@ -28,6 +28,7 @@ final class AssertJsonNumberEnumValueParentTest
 				"Expected \\JCG\\Test\\generated\\Type\\parent\\tests\\JsonNumberEnumValueParentTest, got $type (at $path)"
 			);
 		}
+		\JCG\Test\generated\Util\AssertUtil::assertFieldsIn($o, ["enumValue","enumValueWithDescription","enumValueOrNull","arrayOfEnumValues","arrayOfArraysOfEnumValues","arrayOfEnumValuesAndNulls","arrayOfEnumValuesOrNull","arrayOfEnumValuesAndNullsOrNull","mapOfEnumValues","mapOfMapsOfEnumValues","mapOfNullsAndEnumValues","mapOfEnumValuesOrNull","mapOfNullsAndEnumValuesOrNull","arrayOfMapsOfEnumValues","arrayOfMapsOfEnumValuesOrNull","arrayOfNullsAndMapsOfEnumValues","arrayOfMapsOfNullsAndEnumValues","arrayOfNullsAndMapsOfNullsAndEnumValuesOrNull","mapOfArraysOfEnumValues","mapOfArraysOfEnumValuesOrNull","mapOfNullsAndArraysOfEnumValues","mapOfArraysOfNullsAndEnumValues","mapOfNullsAndArraysOfNullsAndEnumValuesOrNull"], $path);
 		$o->enumValue = \JCG\Test\generated\Util\AssertUtil::assertExactValue(
 			\JCG\Test\generated\Type\parent\JsonNumberEnum::Name,
 			(isset($o->enumValue) ? $o->enumValue : null),
