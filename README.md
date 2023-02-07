@@ -74,14 +74,6 @@ MIT
 
 ## History
 
-1.0.5 Fix Undefinedproperty warnings with PHP 8.1.
-
-1.0.4 Fix JsonMap for Psalm 5.4.0 with PHP 8.1.
-
-1.0.3 Fix enum type loss.
-
-1.0.2 Fix interface setter generics.
-
-1.0.1 Only require non-nullable fields.
+1.1.0 Check interface has no extra fields.
 
 1.0.0 Initial version.
