@@ -21,11 +21,8 @@ spl_autoload_register(function ($class) {
 	}
 	
 	// get the relative class name
+	/** @var string $relative_class */
 	$relative_class = substr($class, $len);
-	if ($relative_class === false) {
-		// shut up psalm
-		return;
-	}
 	
 	// replace the namespace prefix with the base directory, replace namespace
 	// separators with directory separators in the relative class name, append

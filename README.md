@@ -74,6 +74,8 @@ MIT
 
 ## History
 
+1.2.0 Use and support Psalm through composer only.
+
 1.1.0 Check interface has no extra fields.
 
 1.0.0 Initial version.

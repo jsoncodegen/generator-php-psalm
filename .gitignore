@@ -1,5 +1,6 @@
 node_modules
 /dist
+/test-project/vendor
 *.log
 .idea
 .psalm-cache
