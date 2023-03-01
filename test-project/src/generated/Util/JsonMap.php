@@ -55,12 +55,12 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	
 	/**
 	 * @param string $offset
-	 * @return T
+	 * @return T|null
 	 */
 	#[\ReturnTypeWillChange]
 	public function offsetGet($offset)
 	{
-		return $this->data[$offset];
+		return isset($this->data[$offset]) ? $this->data[$offset] : null;
 	}
 	
 	/**
