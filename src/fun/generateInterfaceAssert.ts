@@ -4,19 +4,19 @@ import {
 	IInterfaceField,
 	TFieldType,
 } from 'jsoncodegen-types-for-generator'
+import { IConfig } from '../model/IConfig.js'
 import {
 	ASSERT_FOLDER_NAME,
 	TYPE_FOLDER_NAME,
 	UTILITY_FOLDER_NAME,
-} from '../model/constants'
-import { IConfig } from '../model/IConfig'
-import { templateOfAssertInterface } from '../template/templateOfAssertInterface'
-import { capitalize } from './capitalize'
-import { indent } from './indent'
-import { join } from './join'
-import { joinArrayWith } from './joinArrayWith'
-import { joinWith } from './joinWith'
-import { makeComment } from './makeComment'
+} from '../model/constants.js'
+import { templateOfAssertInterface } from '../template/templateOfAssertInterface.js'
+import { capitalize } from './capitalize.js'
+import { indent } from './indent.js'
+import { join } from './join.js'
+import { joinArrayWith } from './joinArrayWith.js'
+import { joinWith } from './joinWith.js'
+import { makeComment } from './makeComment.js'
 
 export async function generateInterfaceAssert(
 	config: IConfig,

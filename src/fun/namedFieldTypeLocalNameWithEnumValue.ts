@@ -1,6 +1,6 @@
-import { IConfig } from '../model/IConfig'
-import { joinWith } from './joinWith'
-import { namedFieldTypeLocalName } from './namedFieldTypeLocalName'
+import { IConfig } from '../model/IConfig.js'
+import { joinWith } from './joinWith.js'
+import { namedFieldTypeLocalName } from './namedFieldTypeLocalName.js'
 
 export function namedFieldTypeLocalNameWithEnumValue(
 	config: IConfig,

@@ -3,17 +3,17 @@ import {
 	IInterface,
 	TNamedType,
 } from 'jsoncodegen-types-for-generator'
-import { BUILDER_FOLDER_NAME } from '../model/constants'
-import { IConfig } from '../model/IConfig'
-import { templateOfInterfaceBuilder } from '../template/templateOfInterfaceBuilder'
-import { capitalize } from './capitalize'
-import { fieldTypeToString } from './fieldTypeToString'
-import { indent } from './indent'
-import { join } from './join'
-import { joinArrayWith } from './joinArrayWith'
-import { joinWith } from './joinWith'
-import { lineBreakBefore } from './lineBreakBefore'
-import { makeComment } from './makeComment'
+import { IConfig } from '../model/IConfig.js'
+import { BUILDER_FOLDER_NAME } from '../model/constants.js'
+import { templateOfInterfaceBuilder } from '../template/templateOfInterfaceBuilder.js'
+import { capitalize } from './capitalize.js'
+import { fieldTypeToString } from './fieldTypeToString.js'
+import { indent } from './indent.js'
+import { join } from './join.js'
+import { joinArrayWith } from './joinArrayWith.js'
+import { joinWith } from './joinWith.js'
+import { lineBreakBefore } from './lineBreakBefore.js'
+import { makeComment } from './makeComment.js'
 
 export async function generateInterfaceBuilder(
 	config: IConfig,

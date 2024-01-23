@@ -1,3 +1,3 @@
-module.exports = {
-  namespaceBase: 'JCG\\Test\\generated'
+export default {
+	namespaceBase: 'JCG\\Test\\generated',
 }

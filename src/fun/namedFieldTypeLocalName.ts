@@ -1,7 +1,7 @@
-import { TYPE_FOLDER_NAME } from '../model/constants'
-import { IConfig } from '../model/IConfig'
-import { join } from './join'
-import { joinWith } from './joinWith'
+import { TYPE_FOLDER_NAME } from '../model/constants.js'
+import { IConfig } from '../model/IConfig.js'
+import { join } from './join.js'
+import { joinWith } from './joinWith.js'
 
 export function namedFieldTypeLocalName(
 	config: IConfig,

@@ -5,18 +5,18 @@ import {
 	IStringEnum,
 	IStringEnumValue,
 } from 'jsoncodegen-types-for-generator'
+import { IConfig } from '../model/IConfig.js'
 import {
 	ASSERT_FOLDER_NAME,
 	TYPE_FOLDER_NAME,
 	UTILITY_FOLDER_NAME,
-} from '../model/constants'
-import { IConfig } from '../model/IConfig'
-import { templateOfAssertEnum } from '../template/templateOfAssertEnum'
-import { indent } from './indent'
-import { join } from './join'
-import { joinArrayWith } from './joinArrayWith'
-import { joinWith } from './joinWith'
-import { makeComment } from './makeComment'
+} from '../model/constants.js'
+import { templateOfAssertEnum } from '../template/templateOfAssertEnum.js'
+import { indent } from './indent.js'
+import { join } from './join.js'
+import { joinArrayWith } from './joinArrayWith.js'
+import { joinWith } from './joinWith.js'
+import { makeComment } from './makeComment.js'
 
 export async function generateEnumAssert(
 	config: IConfig,

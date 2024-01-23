@@ -59,8 +59,8 @@ jsoncodegen --generator php-psalm --config jsoncodegen-generator-php-psalm.confi
 **jsoncodegen-generator-php-psalm.config.js**
 
 ```js
-module.exports = {
-  namespaceBase: 'MyCompany\\MyProject\\Json'
+export default {
+	namespaceBase: 'MyCompany\\MyProject\\Json',
 }
 ```
 
@@ -73,6 +73,8 @@ Makes all namespaces use the given base. The necessary folders will not be creat
 MIT
 
 ## History
+
+1.3.0 require → import
 
 1.2.0 Use and support Psalm through composer only.
 

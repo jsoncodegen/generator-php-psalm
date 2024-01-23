@@ -3,12 +3,12 @@ import {
 	IGeneratorResult,
 	TGeneratorResult,
 } from 'jsoncodegen-types-for-generator'
-import { generateEnum } from './fun/generateEnum'
-import { generateExtras } from './fun/generateExtras'
-import { generateInterface } from './fun/generateInterface'
-import { IConfig } from './model/IConfig'
+import { generateEnum } from './fun/generateEnum.js'
+import { generateExtras } from './fun/generateExtras.js'
+import { generateInterface } from './fun/generateInterface.js'
+import { IConfig } from './model/IConfig.js'
 
-const generator: IGenerator = {
+export const generator: IGenerator = {
 	async generate(config: IConfig, namedTypesById): Promise<TGeneratorResult> {
 		let result: IGeneratorResult[] = []
 		for (const namedType of namedTypesById.values()) {
@@ -29,5 +29,3 @@ const generator: IGenerator = {
 		return result
 	},
 }
-
-module.exports = generator
