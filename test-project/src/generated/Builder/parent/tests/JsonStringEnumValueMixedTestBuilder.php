@@ -147,4 +147,18 @@ final class JsonStringEnumValueMixedTestBuilder
 		$that = $this;
 		return $that;
 	}
+
+	/**
+	 * @param \JCG\Test\generated\Type\parent\tests\JsonStringEnumValueMixedTest $value
+	 * @return JsonStringEnumValueMixedTestBuilder<"OK", "OK", "OK", "OK", "OK">
+	 */
+	public static function from($value)
+	{
+		return (new JsonStringEnumValueMixedTestBuilder())
+			->setChild($value->child)
+			->setLocal($value->local)
+			->setParent($value->parent)
+			->setRoot($value->root)
+			->setSibling($value->sibling);
+	}
 }

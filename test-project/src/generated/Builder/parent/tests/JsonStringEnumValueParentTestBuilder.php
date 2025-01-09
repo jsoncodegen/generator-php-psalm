@@ -645,4 +645,36 @@ final class JsonStringEnumValueParentTestBuilder
 		$that = $this;
 		return $that;
 	}
+
+	/**
+	 * @param \JCG\Test\generated\Type\parent\tests\JsonStringEnumValueParentTest $value
+	 * @return JsonStringEnumValueParentTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK">
+	 */
+	public static function from($value)
+	{
+		return (new JsonStringEnumValueParentTestBuilder())
+			->setEnumValue($value->enumValue)
+			->setEnumValueWithDescription($value->enumValueWithDescription)
+			->setEnumValueOrNull($value->enumValueOrNull)
+			->setArrayOfEnumValues($value->arrayOfEnumValues)
+			->setArrayOfArraysOfEnumValues($value->arrayOfArraysOfEnumValues)
+			->setArrayOfEnumValuesAndNulls($value->arrayOfEnumValuesAndNulls)
+			->setArrayOfEnumValuesOrNull($value->arrayOfEnumValuesOrNull)
+			->setArrayOfEnumValuesAndNullsOrNull($value->arrayOfEnumValuesAndNullsOrNull)
+			->setMapOfEnumValues($value->mapOfEnumValues)
+			->setMapOfMapsOfEnumValues($value->mapOfMapsOfEnumValues)
+			->setMapOfNullsAndEnumValues($value->mapOfNullsAndEnumValues)
+			->setMapOfEnumValuesOrNull($value->mapOfEnumValuesOrNull)
+			->setMapOfNullsAndEnumValuesOrNull($value->mapOfNullsAndEnumValuesOrNull)
+			->setArrayOfMapsOfEnumValues($value->arrayOfMapsOfEnumValues)
+			->setArrayOfMapsOfEnumValuesOrNull($value->arrayOfMapsOfEnumValuesOrNull)
+			->setArrayOfNullsAndMapsOfEnumValues($value->arrayOfNullsAndMapsOfEnumValues)
+			->setArrayOfMapsOfNullsAndEnumValues($value->arrayOfMapsOfNullsAndEnumValues)
+			->setArrayOfNullsAndMapsOfNullsAndEnumValuesOrNull($value->arrayOfNullsAndMapsOfNullsAndEnumValuesOrNull)
+			->setMapOfArraysOfEnumValues($value->mapOfArraysOfEnumValues)
+			->setMapOfArraysOfEnumValuesOrNull($value->mapOfArraysOfEnumValuesOrNull)
+			->setMapOfNullsAndArraysOfEnumValues($value->mapOfNullsAndArraysOfEnumValues)
+			->setMapOfArraysOfNullsAndEnumValues($value->mapOfArraysOfNullsAndEnumValues)
+			->setMapOfNullsAndArraysOfNullsAndEnumValuesOrNull($value->mapOfNullsAndArraysOfNullsAndEnumValuesOrNull);
+	}
 }

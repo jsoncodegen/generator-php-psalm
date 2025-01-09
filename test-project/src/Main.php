@@ -45,6 +45,15 @@ class Main
 		try {
 			$json = Json::stringify($it);
 			echo "JSON: $json\n";
+			$itCloned = new JsonStringEnumValueLocalTest(
+				JsonStringEnumValueLocalTestBuilder::from($it)
+			);
+			$jsonCloned = Json::stringify($itCloned);
+			echo "JSON cloned: $jsonCloned\n";
+			if ($jsonCloned !== $json) {
+				throw new \Exception("[sptftj] Invalid clone.");
+			}
+			echo "JSON cloned successfully.\n";
 		} catch (\Exception $e) {
 			echo "$e\n";
 		}
@@ -80,6 +89,25 @@ EOS
 			);
 			$it2 = AssertJsonStringEnumValueLocalTest::assert($it2);
 			echo "JSON read successfully.\n";
+		} catch (\Exception $e) {
+			echo "$e\n";
+		}
+		try {
+			/** @var JsonMap<string> $map */
+			$map = new JsonMap(['hey' => 'ho']);
+			$mapArray = $map->toArray();
+			$mapArray['foo'] = 'bar';
+			if (isset($map['foo'])) {
+				throw new \Exception("[spthew] JsonMap mutated.");
+			}
+			$mapCloned = new JsonMap($mapArray);
+			if ($mapCloned['hey'] !== 'ho') {
+				throw new \Exception("[sptj5o] Missing value from JsonMap.");
+			}
+			if ($mapCloned['foo'] !== 'bar') {
+				throw new \Exception("[sptj63] Invalid JsonMap data.");
+			}
+			echo "JsonMap cloned successfully.\n";
 		} catch (\Exception $e) {
 			echo "$e\n";
 		}

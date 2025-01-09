@@ -4,7 +4,7 @@ import {
 	TNamedType,
 } from 'jsoncodegen-types-for-generator'
 import { IConfig } from '../model/IConfig.js'
-import { BUILDER_FOLDER_NAME } from '../model/constants.js'
+import { BUILDER_FOLDER_NAME, TYPE_FOLDER_NAME } from '../model/constants.js'
 import { templateOfInterfaceBuilder } from '../template/templateOfInterfaceBuilder.js'
 import { capitalize } from './capitalize.js'
 import { fieldTypeToString } from './fieldTypeToString.js'
@@ -130,12 +130,75 @@ export async function generateInterfaceBuilder(
 			)
 		}),
 	)
+	const fromFn = indent(
+		joinWith('\n')(
+			makeComment(
+				joinWith('\n')(
+					joinWith(' ')(
+						`@param`,
+						join(
+							'\\',
+							joinWith('\\')(
+								config.namespaceBase,
+								TYPE_FOLDER_NAME,
+								...directoryPath,
+								interfaceName,
+							),
+						),
+						`$value`,
+					),
+					joinWith(' ')(
+						`@return`,
+						join(
+							interfaceBuilderName,
+							requiredFields.length
+								? join(
+										'<',
+										joinArrayWith(', ')(requiredFields.map((_) => `"OK"`)),
+										'>',
+								  )
+								: '',
+						),
+					),
+				),
+			),
+			join('public static function from($value)'),
+			'{',
+			indent(
+				join(
+					'return (new ',
+					interfaceBuilderName,
+					'())',
+					interfaceFields.length
+						? '\n' +
+								indent(
+									joinArrayWith('\n')(
+										interfaceFields.map((field) =>
+											join(
+												'->set',
+												capitalize(field.name),
+												'(',
+												'$value->',
+												field.name,
+												')',
+											),
+										),
+									),
+								) +
+								';'
+						: ';',
+				),
+			),
+			'}',
+		),
+	)
 	const builderDeclaration = templateOfInterfaceBuilder({
 		namespaceDecl,
 		comment,
 		interfaceBuilderName,
 		fieldDeclarations,
 		gettersAndSetters,
+		fromFn,
 	})
 	return {
 		filePath: [

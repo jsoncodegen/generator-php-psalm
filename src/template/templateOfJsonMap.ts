@@ -71,7 +71,8 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	#[\\ReturnTypeWillChange]
 	public function offsetSet($offset, $value)
 	{
-		$this->data[$offset] = $value;
+		// $this->data[$offset] = $value;
+		throw new \\Exception("[sptir6] JsonMap is immutable.");
 	}
 	
 	/**
@@ -80,7 +81,8 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	#[\\ReturnTypeWillChange]
 	public function offsetUnset($offset)
 	{
-		unset($this->data[$offset]);
+		// unset($this->data[$offset]);
+		throw new \\Exception("[sptit0] JsonMap is immutable.");
 	}
 	
 	/**
@@ -142,6 +144,14 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 		 * @psalm-suppress MixedAssignment
 		 */
 		$this->data = unserialize($data);
+	}
+	
+	/**
+	 * @return array<string, T>
+	 */
+	public function toArray()
+	{
+		return $this->data;
 	}
 }
 `

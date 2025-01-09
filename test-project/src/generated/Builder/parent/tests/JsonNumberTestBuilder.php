@@ -645,4 +645,36 @@ final class JsonNumberTestBuilder
 		$that = $this;
 		return $that;
 	}
+
+	/**
+	 * @param \JCG\Test\generated\Type\parent\tests\JsonNumberTest $value
+	 * @return JsonNumberTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK">
+	 */
+	public static function from($value)
+	{
+		return (new JsonNumberTestBuilder())
+			->setCount($value->count)
+			->setCountWithDescription($value->countWithDescription)
+			->setCountOrNull($value->countOrNull)
+			->setArrayOfCounts($value->arrayOfCounts)
+			->setArrayOfArraysOfCounts($value->arrayOfArraysOfCounts)
+			->setArrayOfCountsAndNulls($value->arrayOfCountsAndNulls)
+			->setArrayOfCountsOrNull($value->arrayOfCountsOrNull)
+			->setArrayOfCountsAndNullsOrNull($value->arrayOfCountsAndNullsOrNull)
+			->setMapOfCounts($value->mapOfCounts)
+			->setMapOfMapsOfCounts($value->mapOfMapsOfCounts)
+			->setMapOfNullsAndCounts($value->mapOfNullsAndCounts)
+			->setMapOfCountsOrNull($value->mapOfCountsOrNull)
+			->setMapOfNullsAndCountsOrNull($value->mapOfNullsAndCountsOrNull)
+			->setArrayOfMapsOfCounts($value->arrayOfMapsOfCounts)
+			->setArrayOfMapsOfCountsOrNull($value->arrayOfMapsOfCountsOrNull)
+			->setArrayOfNullsAndMapsOfCounts($value->arrayOfNullsAndMapsOfCounts)
+			->setArrayOfMapsOfNullsAndCounts($value->arrayOfMapsOfNullsAndCounts)
+			->setArrayOfNullsAndMapsOfNullsAndCountsOrNull($value->arrayOfNullsAndMapsOfNullsAndCountsOrNull)
+			->setMapOfArraysOfCounts($value->mapOfArraysOfCounts)
+			->setMapOfArraysOfCountsOrNull($value->mapOfArraysOfCountsOrNull)
+			->setMapOfNullsAndArraysOfCounts($value->mapOfNullsAndArraysOfCounts)
+			->setMapOfArraysOfNullsAndCounts($value->mapOfArraysOfNullsAndCounts)
+			->setMapOfNullsAndArraysOfNullsAndCountsOrNull($value->mapOfNullsAndArraysOfNullsAndCountsOrNull);
+	}
 }

@@ -645,4 +645,36 @@ final class JsonInterfaceRootTestBuilder
 		$that = $this;
 		return $that;
 	}
+
+	/**
+	 * @param \JCG\Test\generated\Type\parent\tests\JsonInterfaceRootTest $value
+	 * @return JsonInterfaceRootTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK">
+	 */
+	public static function from($value)
+	{
+		return (new JsonInterfaceRootTestBuilder())
+			->setObject_($value->object_)
+			->setObjectWithDescription($value->objectWithDescription)
+			->setObjectOrNull($value->objectOrNull)
+			->setArrayOfObjects($value->arrayOfObjects)
+			->setArrayOfArraysOfObjects($value->arrayOfArraysOfObjects)
+			->setArrayOfObjectsAndNulls($value->arrayOfObjectsAndNulls)
+			->setArrayOfObjectsOrNull($value->arrayOfObjectsOrNull)
+			->setArrayOfObjectsAndNullsOrNull($value->arrayOfObjectsAndNullsOrNull)
+			->setMapOfObjects($value->mapOfObjects)
+			->setMapOfMapsOfObjects($value->mapOfMapsOfObjects)
+			->setMapOfNullsAndObjects($value->mapOfNullsAndObjects)
+			->setMapOfObjectsOrNull($value->mapOfObjectsOrNull)
+			->setMapOfNullsAndObjectsOrNull($value->mapOfNullsAndObjectsOrNull)
+			->setArrayOfMapsOfObjects($value->arrayOfMapsOfObjects)
+			->setArrayOfMapsOfObjectsOrNull($value->arrayOfMapsOfObjectsOrNull)
+			->setArrayOfNullsAndMapsOfObjects($value->arrayOfNullsAndMapsOfObjects)
+			->setArrayOfMapsOfNullsAndObjects($value->arrayOfMapsOfNullsAndObjects)
+			->setArrayOfNullsAndMapsOfNullsAndObjectsOrNull($value->arrayOfNullsAndMapsOfNullsAndObjectsOrNull)
+			->setMapOfArraysOfObjects($value->mapOfArraysOfObjects)
+			->setMapOfArraysOfObjectsOrNull($value->mapOfArraysOfObjectsOrNull)
+			->setMapOfNullsAndArraysOfObjects($value->mapOfNullsAndArraysOfObjects)
+			->setMapOfArraysOfNullsAndObjects($value->mapOfArraysOfNullsAndObjects)
+			->setMapOfNullsAndArraysOfNullsAndObjectsOrNull($value->mapOfNullsAndArraysOfNullsAndObjectsOrNull);
+	}
 }

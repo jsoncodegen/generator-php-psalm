@@ -645,4 +645,36 @@ final class JsonStringTestBuilder
 		$that = $this;
 		return $that;
 	}
+
+	/**
+	 * @param \JCG\Test\generated\Type\parent\tests\JsonStringTest $value
+	 * @return JsonStringTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK">
+	 */
+	public static function from($value)
+	{
+		return (new JsonStringTestBuilder())
+			->setName($value->name)
+			->setNameWithDescription($value->nameWithDescription)
+			->setNameOrNull($value->nameOrNull)
+			->setArrayOfNames($value->arrayOfNames)
+			->setArrayOfArraysOfNames($value->arrayOfArraysOfNames)
+			->setArrayOfNamesAndNulls($value->arrayOfNamesAndNulls)
+			->setArrayOfNamesOrNull($value->arrayOfNamesOrNull)
+			->setArrayOfNamesAndNullsOrNull($value->arrayOfNamesAndNullsOrNull)
+			->setMapOfNames($value->mapOfNames)
+			->setMapOfMapsOfNames($value->mapOfMapsOfNames)
+			->setMapOfNullsAndNames($value->mapOfNullsAndNames)
+			->setMapOfNamesOrNull($value->mapOfNamesOrNull)
+			->setMapOfNullsAndNamesOrNull($value->mapOfNullsAndNamesOrNull)
+			->setArrayOfMapsOfNames($value->arrayOfMapsOfNames)
+			->setArrayOfMapsOfNamesOrNull($value->arrayOfMapsOfNamesOrNull)
+			->setArrayOfNullsAndMapsOfNames($value->arrayOfNullsAndMapsOfNames)
+			->setArrayOfMapsOfNullsAndNames($value->arrayOfMapsOfNullsAndNames)
+			->setArrayOfNullsAndMapsOfNullsAndNamesOrNull($value->arrayOfNullsAndMapsOfNullsAndNamesOrNull)
+			->setMapOfArraysOfNames($value->mapOfArraysOfNames)
+			->setMapOfArraysOfNamesOrNull($value->mapOfArraysOfNamesOrNull)
+			->setMapOfNullsAndArraysOfNames($value->mapOfNullsAndArraysOfNames)
+			->setMapOfArraysOfNullsAndNames($value->mapOfArraysOfNullsAndNames)
+			->setMapOfNullsAndArraysOfNullsAndNamesOrNull($value->mapOfNullsAndArraysOfNullsAndNamesOrNull);
+	}
 }

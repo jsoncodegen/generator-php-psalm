@@ -4,12 +4,14 @@ export function templateOfInterfaceBuilder({
 	interfaceBuilderName,
 	fieldDeclarations,
 	gettersAndSetters,
+	fromFn,
 }: {
 	namespaceDecl: string
 	comment: string
 	interfaceBuilderName: string
 	fieldDeclarations: string
 	gettersAndSetters: string
+	fromFn: string
 }) {
 	return `<?php
 
@@ -21,5 +23,7 @@ final class ${interfaceBuilderName}
 ${fieldDeclarations}
 
 ${gettersAndSetters}
+
+${fromFn}
 }`
 }

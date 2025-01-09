@@ -645,4 +645,36 @@ final class JsonStringEnumRootTestBuilder
 		$that = $this;
 		return $that;
 	}
+
+	/**
+	 * @param \JCG\Test\generated\Type\parent\tests\JsonStringEnumRootTest $value
+	 * @return JsonStringEnumRootTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK">
+	 */
+	public static function from($value)
+	{
+		return (new JsonStringEnumRootTestBuilder())
+			->setEnum_($value->enum_)
+			->setEnumWithDescription($value->enumWithDescription)
+			->setEnumOrNull($value->enumOrNull)
+			->setArrayOfEnums($value->arrayOfEnums)
+			->setArrayOfArraysOfEnums($value->arrayOfArraysOfEnums)
+			->setArrayOfEnumsAndNulls($value->arrayOfEnumsAndNulls)
+			->setArrayOfEnumsOrNull($value->arrayOfEnumsOrNull)
+			->setArrayOfEnumsAndNullsOrNull($value->arrayOfEnumsAndNullsOrNull)
+			->setMapOfEnums($value->mapOfEnums)
+			->setMapOfMapsOfEnums($value->mapOfMapsOfEnums)
+			->setMapOfNullsAndEnums($value->mapOfNullsAndEnums)
+			->setMapOfEnumsOrNull($value->mapOfEnumsOrNull)
+			->setMapOfNullsAndEnumsOrNull($value->mapOfNullsAndEnumsOrNull)
+			->setArrayOfMapsOfEnums($value->arrayOfMapsOfEnums)
+			->setArrayOfMapsOfEnumsOrNull($value->arrayOfMapsOfEnumsOrNull)
+			->setArrayOfNullsAndMapsOfEnums($value->arrayOfNullsAndMapsOfEnums)
+			->setArrayOfMapsOfNullsAndEnums($value->arrayOfMapsOfNullsAndEnums)
+			->setArrayOfNullsAndMapsOfNullsAndEnumsOrNull($value->arrayOfNullsAndMapsOfNullsAndEnumsOrNull)
+			->setMapOfArraysOfEnums($value->mapOfArraysOfEnums)
+			->setMapOfArraysOfEnumsOrNull($value->mapOfArraysOfEnumsOrNull)
+			->setMapOfNullsAndArraysOfEnums($value->mapOfNullsAndArraysOfEnums)
+			->setMapOfArraysOfNullsAndEnums($value->mapOfArraysOfNullsAndEnums)
+			->setMapOfNullsAndArraysOfNullsAndEnumsOrNull($value->mapOfNullsAndArraysOfNullsAndEnumsOrNull);
+	}
 }

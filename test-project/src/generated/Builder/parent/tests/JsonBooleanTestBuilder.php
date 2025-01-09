@@ -645,4 +645,36 @@ final class JsonBooleanTestBuilder
 		$that = $this;
 		return $that;
 	}
+
+	/**
+	 * @param \JCG\Test\generated\Type\parent\tests\JsonBooleanTest $value
+	 * @return JsonBooleanTestBuilder<"OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK">
+	 */
+	public static function from($value)
+	{
+		return (new JsonBooleanTestBuilder())
+			->setFlag($value->flag)
+			->setFlagWithDescription($value->flagWithDescription)
+			->setFlagOrNull($value->flagOrNull)
+			->setArrayOfFlags($value->arrayOfFlags)
+			->setArrayOfArraysOfFlags($value->arrayOfArraysOfFlags)
+			->setArrayOfFlagsAndNulls($value->arrayOfFlagsAndNulls)
+			->setArrayOfFlagsOrNull($value->arrayOfFlagsOrNull)
+			->setArrayOfFlagsAndNullsOrNull($value->arrayOfFlagsAndNullsOrNull)
+			->setMapOfFlags($value->mapOfFlags)
+			->setMapOfMapsOfFlags($value->mapOfMapsOfFlags)
+			->setMapOfNullsAndFlags($value->mapOfNullsAndFlags)
+			->setMapOfFlagsOrNull($value->mapOfFlagsOrNull)
+			->setMapOfNullsAndFlagsOrNull($value->mapOfNullsAndFlagsOrNull)
+			->setArrayOfMapsOfFlags($value->arrayOfMapsOfFlags)
+			->setArrayOfMapsOfFlagsOrNull($value->arrayOfMapsOfFlagsOrNull)
+			->setArrayOfNullsAndMapsOfFlags($value->arrayOfNullsAndMapsOfFlags)
+			->setArrayOfMapsOfNullsAndFlags($value->arrayOfMapsOfNullsAndFlags)
+			->setArrayOfNullsAndMapsOfNullsAndFlagsOrNull($value->arrayOfNullsAndMapsOfNullsAndFlagsOrNull)
+			->setMapOfArraysOfFlags($value->mapOfArraysOfFlags)
+			->setMapOfArraysOfFlagsOrNull($value->mapOfArraysOfFlagsOrNull)
+			->setMapOfNullsAndArraysOfFlags($value->mapOfNullsAndArraysOfFlags)
+			->setMapOfArraysOfNullsAndFlags($value->mapOfArraysOfNullsAndFlags)
+			->setMapOfNullsAndArraysOfNullsAndFlagsOrNull($value->mapOfNullsAndArraysOfNullsAndFlagsOrNull);
+	}
 }

@@ -147,4 +147,18 @@ final class JsonInterfaceMixedTestBuilder
 		$that = $this;
 		return $that;
 	}
+
+	/**
+	 * @param \JCG\Test\generated\Type\parent\tests\JsonInterfaceMixedTest $value
+	 * @return JsonInterfaceMixedTestBuilder<"OK", "OK", "OK", "OK", "OK">
+	 */
+	public static function from($value)
+	{
+		return (new JsonInterfaceMixedTestBuilder())
+			->setChild($value->child)
+			->setLocal($value->local)
+			->setParent($value->parent)
+			->setRoot($value->root)
+			->setSibling($value->sibling);
+	}
 }
