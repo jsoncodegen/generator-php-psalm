@@ -114,6 +114,8 @@ MIT
 
 ## History
 
+3.0.0 Compatibility with Psalm 6.10.
+
 2.0.0 Make `JsonMap` immutable. Add static `from` method to interfaces, to aid cloning and editing.
 
 1.3.0 require → import

@@ -8,7 +8,7 @@ use JCG\Test\generated\Type\parent\tests\JsonStringEnum;
 use JCG\Test\generated\Type\parent\tests\JsonStringEnumValueLocalTest;
 use JCG\Test\generated\Util\JsonMap;
 
-class Main
+final class Main
 {
 	/**
 	 * @return void

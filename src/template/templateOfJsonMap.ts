@@ -16,7 +16,7 @@ use stdClass;
  * @implements IteratorAggregate<string,T>
  * @implements ArrayAccess<string,T>
  */
-class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Countable, Serializable
+final class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Countable, Serializable
 {
 	/**
 	 * @var array<string, T>
@@ -35,6 +35,7 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	 * @inheritDoc
 	 */
 	#[\\ReturnTypeWillChange]
+	#[\\Override]
 	public function jsonSerialize()
 	{
 		if (count($this->data) > 0) {
@@ -49,6 +50,7 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	 * @return bool
 	 */
 	#[\\ReturnTypeWillChange]
+	#[\\Override]
 	public function offsetExists($offset)
 	{
 		return array_key_exists($offset, $this->data);
@@ -59,6 +61,7 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	 * @return T|null
 	 */
 	#[\\ReturnTypeWillChange]
+	#[\\Override]
 	public function offsetGet($offset)
 	{
 		return isset($this->data[$offset]) ? $this->data[$offset] : null;
@@ -69,6 +72,7 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	 * @param T $value
 	 */
 	#[\\ReturnTypeWillChange]
+	#[\\Override]
 	public function offsetSet($offset, $value)
 	{
 		// $this->data[$offset] = $value;
@@ -79,6 +83,7 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	 * @param string $offset
 	 */
 	#[\\ReturnTypeWillChange]
+	#[\\Override]
 	public function offsetUnset($offset)
 	{
 		// unset($this->data[$offset]);
@@ -89,6 +94,7 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	 * @return ArrayIterator<string,T>
 	 */
 	#[\\ReturnTypeWillChange]
+	#[\\Override]
 	public function getIterator()
 	{
 		return new ArrayIterator($this->data);
@@ -98,6 +104,7 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	 * @inheritDoc
 	 */
 	#[\\ReturnTypeWillChange]
+	#[\\Override]
 	public function count()
 	{
 		return count($this->data);
@@ -107,6 +114,7 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	 * @inheritDoc
 	 */
 	#[\\ReturnTypeWillChange]
+	#[\\Override]
 	public function serialize()
 	{
 		return serialize($this->data);
@@ -116,6 +124,7 @@ class JsonMap implements JsonSerializable, ArrayAccess, IteratorAggregate, Count
 	 * @inheritDoc
 	 */
 	#[\\ReturnTypeWillChange]
+	#[\\Override]
 	public function unserialize($data)
 	{
 		/**

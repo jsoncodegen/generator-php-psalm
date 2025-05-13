@@ -5,7 +5,7 @@ namespace JCG\Test;
 /**
  *
  */
-class Json
+final class Json
 {
 	/**
 	 * @param string $str

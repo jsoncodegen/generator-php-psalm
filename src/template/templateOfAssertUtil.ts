@@ -3,7 +3,7 @@ export function templateOfAssertUtil({ namespace }: { namespace: string }) {
 
 namespace ${namespace};
 
-class AssertUtil
+final class AssertUtil
 {
 	/**
 	 * @param mixed $it

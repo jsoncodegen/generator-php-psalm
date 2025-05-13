@@ -2,7 +2,7 @@
 
 namespace JCG\Test\generated\Util;
 
-class AssertUtil
+final class AssertUtil
 {
 	/**
 	 * @param mixed $it
